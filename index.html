@@ -1,0 +1,1671 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>24小时不打烊黑料 | 深度内容社区_官方视频门户</title>
+<meta name="description" content="24小时不打烊黑料官方网站，专注深度影像与真实故事的内容社区，持续运营的原创视频品牌平台，为创作者与企业搭建高品质内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2316141c'/%3E%3Ccircle cx='32' cy='32' r='15' fill='none' stroke='%23ff2d55' stroke-width='4'/%3E%3Cpolygon points='28,24 44,32 28,40' fill='%23ffd166'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bjk-ink:#16141c;
+  --bjk-ink-2:#211d2b;
+  --bjk-ink-3:#2c2638;
+  --bjk-red:#ff2d55;
+  --bjk-red-deep:#d81b3f;
+  --bjk-yellow:#ffd166;
+  --bjk-paper:#f5f2ee;
+  --bjk-gray:#a49db4;
+  --bjk-line:rgba(255,255,255,.12);
+  --bjk-radius:16px;
+  --bjk-shadow:0 18px 46px rgba(0,0,0,.42);
+  --bjk-head-h:118px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  background:var(--bjk-ink);
+  color:#eae7f0;
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+section{scroll-margin-top:calc(var(--bjk-head-h) + 14px)}
+.bjk-wrap{width:min(1180px,92vw);margin:0 auto}
+
+/* ===== 吸顶公告 + 页头 ===== */
+.bjk-sticky{position:sticky;top:0;z-index:90}
+.bjk-notice{
+  background:linear-gradient(90deg,var(--bjk-red-deep),var(--bjk-red) 55%,#ff6b3d);
+  color:#fff;font-size:13.5px;letter-spacing:.2px;
+  padding:9px 0;
+}
+.bjk-notice-inner{display:flex;align-items:center;gap:12px;width:min(1180px,92vw);margin:0 auto}
+.bjk-notice-tag{
+  flex:none;background:#fff;color:var(--bjk-red-deep);font-weight:800;
+  font-size:12px;padding:2px 9px;border-radius:20px;
+}
+.bjk-notice-list{display:flex;gap:26px;overflow:hidden;flex:1;white-space:nowrap}
+.bjk-notice-item{opacity:0;animation:bjkFlash 12s linear infinite}
+.bjk-notice-item:nth-child(2){animation-delay:4s}
+.bjk-notice-item:nth-child(3){animation-delay:8s}
+.bjk-notice-item:first-child{opacity:1}
+@keyframes bjkFlash{
+  0%{opacity:0;transform:translateY(6px)}
+  3%{opacity:1;transform:translateY(0)}
+  30%{opacity:1;transform:translateY(0)}
+  34%{opacity:0;transform:translateY(-6px)}
+  100%{opacity:0;transform:translateY(-6px)}
+}
+.bjk-notice-close{flex:none;color:rgba(255,255,255,.85);font-size:16px;line-height:1;padding:2px 4px}
+.bjk-head{
+  background:rgba(22,20,28,.94);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--bjk-line);
+}
+.bjk-head-inner{
+  width:min(1180px,92vw);margin:0 auto;
+  display:flex;align-items:center;gap:22px;
+  height:72px;
+}
+.bjk-logo{display:flex;align-items:center;gap:10px;flex:none}
+.bjk-logo-mark{
+  width:38px;height:38px;border-radius:11px;
+  background:linear-gradient(140deg,var(--bjk-red),#8b1bff);
+  display:grid;place-items:center;position:relative;flex:none;
+}
+.bjk-logo-mark::after{
+  content:"";width:0;height:0;
+  border-left:11px solid #fff;border-top:7px solid transparent;border-bottom:7px solid transparent;
+  margin-left:3px;
+}
+.bjk-logo-txt{font-size:17px;font-weight:800;letter-spacing:.5px;white-space:nowrap}
+.bjk-logo-txt em{font-style:normal;color:var(--bjk-yellow)}
+.bjk-nav{display:flex;align-items:center;gap:4px;margin-left:6px;flex:1;flex-wrap:wrap}
+.bjk-nav a{
+  font-size:14.5px;color:#cfc9dd;padding:8px 12px;border-radius:9px;
+  transition:.22s;white-space:nowrap;
+}
+.bjk-nav a:hover{color:#fff;background:rgba(255,255,255,.08)}
+.bjk-search{
+  flex:none;display:flex;align-items:center;gap:0;
+  background:var(--bjk-ink-3);border:1px solid var(--bjk-line);
+  border-radius:11px;overflow:hidden;
+}
+.bjk-search input{
+  background:transparent;border:none;outline:none;color:#fff;
+  padding:9px 12px;width:168px;font-size:13.5px;
+}
+.bjk-search input::placeholder{color:#8d86a0}
+.bjk-search button{
+  padding:9px 13px;background:var(--bjk-red);font-size:13px;font-weight:700;
+  transition:.2s;
+}
+.bjk-search button:hover{background:#ff4d6e}
+.bjk-search-tip{
+  position:absolute;margin-top:6px;background:var(--bjk-ink-3);
+  border:1px solid var(--bjk-line);border-radius:10px;padding:6px 0;
+  font-size:13px;color:#cfc9dd;display:none;box-shadow:var(--bjk-shadow);min-width:220px;z-index:99;
+}
+.bjk-search-tip.show{display:block}
+.bjk-search-tip span{display:block;padding:6px 14px}
+.bjk-search-tip span:hover{background:rgba(255,255,255,.07);color:#fff;cursor:pointer}
+.bjk-burger{display:none;font-size:22px;padding:6px 8px;color:#fff}
+.bjk-mobile-nav{
+  display:none;flex-direction:column;padding:10px 0 16px;
+  border-top:1px solid var(--bjk-line);
+}
+.bjk-mobile-nav.open{display:flex}
+.bjk-mobile-nav a{padding:11px 4px;font-size:15px;color:#d9d4e4;border-bottom:1px solid rgba(255,255,255,.06)}
+
+/* ===== 首屏 ===== */
+.bjk-hero{
+  position:relative;padding:64px 0 72px;overflow:hidden;
+  background:
+    radial-gradient(900px 460px at 82% -10%,rgba(255,45,85,.30),transparent 62%),
+    radial-gradient(760px 420px at 8% 110%,rgba(139,27,255,.26),transparent 65%),
+    var(--bjk-ink);
+}
+.bjk-hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.bjk-hero-badge{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:12.5px;font-weight:700;letter-spacing:.6px;
+  color:var(--bjk-yellow);border:1px solid rgba(255,209,102,.4);
+  padding:5px 14px;border-radius:30px;background:rgba(255,209,102,.08);
+  margin-bottom:20px;
+}
+.bjk-hero-badge i{width:7px;height:7px;border-radius:50%;background:var(--bjk-red);animation:bjkPulse 1.8s infinite}
+@keyframes bjkPulse{0%,100%{box-shadow:0 0 0 0 rgba(255,45,85,.7)}50%{box-shadow:0 0 0 7px rgba(255,45,85,0)}}
+h1.bjk-h1{
+  font-size:clamp(34px,4.6vw,58px);line-height:1.16;font-weight:900;
+  letter-spacing:1px;margin-bottom:18px;
+}
+h1.bjk-h1 span{
+  background:linear-gradient(100deg,var(--bjk-red),var(--bjk-yellow));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.bjk-hero-sub{font-size:16.5px;color:#c3bccf;max-width:540px;margin-bottom:26px}
+.bjk-hero-desc{
+  font-size:14.5px;color:#a49db4;line-height:1.95;
+  border-left:3px solid var(--bjk-red);padding-left:16px;margin-bottom:30px;max-width:560px;
+}
+.bjk-hero-btns{display:flex;gap:14px;flex-wrap:wrap}
+.bjk-btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:12px 26px;border-radius:12px;font-size:14.5px;font-weight:700;
+  transition:.24s;
+}
+.bjk-btn-main{background:var(--bjk-red);color:#fff;box-shadow:0 12px 26px rgba(255,45,85,.32)}
+.bjk-btn-main:hover{background:#ff4d6e;transform:translateY(-2px)}
+.bjk-btn-ghost{border:1px solid rgba(255,255,255,.24);color:#efeaf7}
+.bjk-btn-ghost:hover{border-color:var(--bjk-yellow);color:var(--bjk-yellow);transform:translateY(-2px)}
+.bjk-hero-stats{display:flex;gap:34px;margin-top:38px;flex-wrap:wrap}
+.bjk-hero-stat b{display:block;font-size:26px;font-weight:900;color:#fff;letter-spacing:.5px}
+.bjk-hero-stat b em{font-style:normal;font-size:14px;color:var(--bjk-yellow);margin-left:2px}
+.bjk-hero-stat span{font-size:12.5px;color:#918aa4;letter-spacing:.5px}
+.bjk-hero-visual{position:relative}
+.bjk-hero-cover{
+  border-radius:22px;overflow:hidden;box-shadow:var(--bjk-shadow);
+  border:1px solid rgba(255,255,255,.14);position:relative;
+  transform:rotate(-1.2deg);
+  transition:.5s;
+}
+.bjk-hero-cover:hover{transform:rotate(0) scale(1.012)}
+.bjk-hero-cover img{width:100%;height:auto}
+.bjk-hero-float{
+  position:absolute;left:-16px;bottom:-22px;
+  background:rgba(33,29,43,.94);border:1px solid var(--bjk-line);
+  border-radius:14px;padding:12px 18px;backdrop-filter:blur(8px);
+  box-shadow:var(--bjk-shadow);
+}
+.bjk-hero-float b{display:block;font-size:13px;color:var(--bjk-yellow)}
+.bjk-hero-float span{font-size:11.5px;color:#918aa4}
+.bjk-hero-float2{
+  position:absolute;right:-10px;top:-16px;
+  background:var(--bjk-red);color:#fff;border-radius:11px;
+  padding:7px 15px;font-size:12.5px;font-weight:800;letter-spacing:.4px;
+  box-shadow:0 10px 22px rgba(255,45,85,.4);
+}
+
+/* 通用 section 标题 */
+.bjk-sec{padding:66px 0}
+.bjk-sec-alt{background:var(--bjk-ink-2)}
+.bjk-sec-head{margin-bottom:34px}
+.bjk-eyebrow{
+  display:inline-block;font-size:12.5px;font-weight:800;letter-spacing:2px;
+  color:var(--bjk-red);margin-bottom:10px;
+}
+h2.bjk-h2{font-size:clamp(23px,2.8vw,32px);font-weight:900;letter-spacing:.6px;line-height:1.3}
+.bjk-sec-lead{color:#a49db4;font-size:14.5px;margin-top:10px;max-width:680px}
+
+/* 焦点视频 */
+.bjk-focus-grid{display:grid;grid-template-columns:1.35fr 1fr;gap:22px}
+.bjk-vcard{
+  background:var(--bjk-ink-3);border:1px solid var(--bjk-line);
+  border-radius:var(--bjk-radius);overflow:hidden;
+  transition:.3s;display:flex;flex-direction:column;
+}
+.bjk-vcard:hover{transform:translateY(-5px);border-color:rgba(255,45,85,.5);box-shadow:var(--bjk-shadow)}
+.bjk-vcard-cover{position:relative;aspect-ratio:16/9;overflow:hidden;background:#000}
+.bjk-vcard-cover img{width:100%;height:100%;object-fit:cover;transition:.5s}
+.bjk-vcard:hover .bjk-vcard-cover img{transform:scale(1.05)}
+.bjk-vcard-cover::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,transparent 46%,rgba(12,10,18,.82) 100%);
+}
+.bjk-play{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  width:52px;height:52px;border-radius:50%;
+  background:rgba(255,45,85,.92);display:grid;place-items:center;z-index:2;
+  transition:.3s;
+}
+.bjk-play::after{
+  content:"";width:0;height:0;
+  border-left:15px solid #fff;border-top:9px solid transparent;border-bottom:9px solid transparent;
+  margin-left:4px;
+}
+.bjk-vcard:hover .bjk-play{background:var(--bjk-yellow);transform:translate(-50%,-50%) scale(1.1)}
+.bjk-vcard-tag{
+  position:absolute;left:12px;top:12px;z-index:2;
+  background:rgba(22,20,28,.82);border:1px solid rgba(255,209,102,.5);
+  color:var(--bjk-yellow);font-size:11.5px;font-weight:700;
+  padding:3px 10px;border-radius:20px;backdrop-filter:blur(6px);
+}
+.bjk-vcard-dur{
+  position:absolute;right:12px;bottom:12px;z-index:2;
+  font-size:11.5px;background:rgba(12,10,18,.82);padding:2px 8px;border-radius:6px;color:#e6e1ef;
+}
+.bjk-vcard-body{padding:16px 18px 18px;flex:1;display:flex;flex-direction:column}
+.bjk-vcard-title{font-size:16px;font-weight:800;line-height:1.5;margin-bottom:8px}
+.bjk-vcard-ex{font-size:13px;color:#a49db4;line-height:1.7;margin-bottom:12px;flex:1}
+.bjk-vcard-meta{
+  display:flex;align-items:center;gap:10px;font-size:12.5px;color:#8d86a0;
+  border-top:1px solid rgba(255,255,255,.08);padding-top:11px;flex-wrap:wrap;
+}
+.bjk-avatar{
+  width:26px;height:26px;border-radius:50%;flex:none;
+  display:grid;place-items:center;font-size:12px;font-weight:800;color:#fff;
+  background:linear-gradient(140deg,var(--bjk-red),#8b1bff);
+}
+.bjk-avatar.g2{background:linear-gradient(140deg,#0ea5e9,#22c55e)}
+.bjk-avatar.g3{background:linear-gradient(140deg,#f59e0b,#ef4444)}
+.bjk-avatar.g4{background:linear-gradient(140deg,#8b5cf6,#ec4899)}
+.bjk-avatar.g5{background:linear-gradient(140deg,#14b8a6,#84cc16)}
+.bjk-avatar.g6{background:linear-gradient(140deg,#f97316,#facc15)}
+.bjk-mini-actions{margin-left:auto;display:flex;gap:6px}
+.bjk-act{
+  display:inline-flex;align-items:center;gap:4px;font-size:12px;color:#918aa4;
+  padding:4px 9px;border-radius:8px;border:1px solid transparent;transition:.2s;
+}
+.bjk-act:hover{background:rgba(255,255,255,.07);color:#fff}
+.bjk-act.on-like{color:var(--bjk-red);border-color:rgba(255,45,85,.4);background:rgba(255,45,85,.1)}
+.bjk-act.on-save{color:var(--bjk-yellow);border-color:rgba(255,209,102,.4);background:rgba(255,209,102,.1)}
+.bjk-focus-side{display:grid;grid-template-rows:repeat(4,1fr);gap:16px}
+.bjk-vcard-sm{display:grid;grid-template-columns:132px 1fr;gap:0}
+.bjk-vcard-sm .bjk-vcard-cover{aspect-ratio:16/10;height:100%}
+.bjk-vcard-sm .bjk-play{width:34px;height:34px}
+.bjk-vcard-sm .bjk-play::after{border-left-width:10px;border-top-width:6px;border-bottom-width:6px}
+.bjk-vcard-sm .bjk-vcard-body{padding:12px 14px}
+.bjk-vcard-sm .bjk-vcard-title{font-size:13.5px;margin-bottom:6px}
+.bjk-vcard-sm .bjk-vcard-ex{font-size:12px;margin-bottom:8px}
+
+/* 视频流 */
+.bjk-stream{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.bjk-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}
+.bjk-tab{
+  font-size:13.5px;color:#b3acc2;padding:7px 16px;border-radius:30px;
+  border:1px solid var(--bjk-line);transition:.2s;
+}
+.bjk-tab:hover{color:#fff;border-color:rgba(255,255,255,.35)}
+.bjk-tab.active{background:var(--bjk-red);border-color:var(--bjk-red);color:#fff;font-weight:700}
+
+/* 专题 */
+.bjk-special{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.bjk-sp-card{
+  border-radius:var(--bjk-radius);overflow:hidden;position:relative;
+  border:1px solid var(--bjk-line);background:var(--bjk-ink-3);
+  transition:.3s;display:flex;flex-direction:column;
+}
+.bjk-sp-card:hover{transform:translateY(-6px);border-color:rgba(255,209,102,.5)}
+.bjk-sp-cover{aspect-ratio:4/5;overflow:hidden}
+.bjk-sp-cover img{width:100%;height:100%;object-fit:cover;transition:.5s}
+.bjk-sp-card:hover .bjk-sp-cover img{transform:scale(1.06)}
+.bjk-sp-info{padding:14px 16px 16px}
+.bjk-sp-info h3{font-size:15px;font-weight:800;margin-bottom:6px;line-height:1.45}
+.bjk-sp-info p{font-size:12.5px;color:#a49db4;line-height:1.65;margin-bottom:10px}
+.bjk-sp-state{
+  display:inline-block;font-size:11.5px;font-weight:700;
+  color:var(--bjk-yellow);background:rgba(255,209,102,.12);
+  border:1px solid rgba(255,209,102,.32);padding:2px 10px;border-radius:20px;
+}
+
+/* 创作者 */
+.bjk-creators{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.bjk-cre-card{
+  background:var(--bjk-ink-2);border:1px solid var(--bjk-line);
+  border-radius:var(--bjk-radius);padding:22px;transition:.3s;
+  position:relative;overflow:hidden;
+}
+.bjk-cre-card::before{
+  content:"";position:absolute;right:-40px;top:-40px;width:120px;height:120px;
+  border-radius:50%;background:radial-gradient(circle,rgba(255,45,85,.22),transparent 70%);
+}
+.bjk-cre-card:hover{transform:translateY(-4px);border-color:rgba(255,45,85,.45)}
+.bjk-cre-top{display:flex;align-items:center;gap:13px;margin-bottom:14px}
+.bjk-cre-avatar{
+  width:52px;height:52px;border-radius:50%;flex:none;
+  display:grid;place-items:center;font-size:21px;font-weight:900;color:#fff;
+  box-shadow:0 8px 18px rgba(0,0,0,.35);
+}
+.bjk-cre-name{font-size:16px;font-weight:800}
+.bjk-cre-field{font-size:12px;color:var(--bjk-yellow);letter-spacing:.3px}
+.bjk-cre-desc{font-size:13px;color:#a49db4;line-height:1.75;margin-bottom:14px;min-height:66px}
+.bjk-cre-num{display:flex;gap:20px;border-top:1px solid rgba(255,255,255,.09);padding-top:12px;font-size:12.5px;color:#918aa4}
+.bjk-cre-num b{color:#fff;font-size:14px;margin-right:3px}
+.bjk-cre-btn{
+  position:absolute;right:18px;bottom:18px;font-size:12px;color:var(--bjk-red);
+  border:1px solid rgba(255,45,85,.4);padding:4px 12px;border-radius:20px;transition:.2s;
+}
+.bjk-cre-btn:hover{background:var(--bjk-red);color:#fff}
+
+/* 深度解析长文 */
+.bjk-deep{
+  display:grid;grid-template-columns:.85fr 1.15fr;gap:44px;align-items:start;
+}
+.bjk-deep-side{
+  position:sticky;top:calc(var(--bjk-head-h) + 28px);
+}
+.bjk-deep-side h2{font-size:27px;font-weight:900;line-height:1.35;margin-bottom:14px}
+.bjk-deep-side p{font-size:14px;color:#a49db4;margin-bottom:18px}
+.bjk-deep-list{display:flex;flex-direction:column;gap:2px;margin-top:18px}
+.bjk-deep-list div{
+  display:flex;gap:10px;font-size:13.5px;color:#cfc9dd;
+  padding:11px 0;border-bottom:1px dashed rgba(255,255,255,.1);
+}
+.bjk-deep-list i{color:var(--bjk-red);font-style:normal;font-weight:900;flex:none}
+.bjk-deep-article{font-size:15px;color:#c8c2d5;line-height:2.05;letter-spacing:.2px}
+.bjk-deep-article h3{font-size:19px;color:#fff;font-weight:800;margin:30px 0 12px;line-height:1.5}
+.bjk-deep-article h3:first-child{margin-top:0}
+.bjk-deep-article p{margin-bottom:16px}
+.bjk-deep-article strong{color:var(--bjk-yellow);font-weight:700}
+.bjk-quote{
+  border-left:3px solid var(--bjk-red);padding:4px 0 4px 18px;
+  color:#e2dcf0;font-size:15px;margin:22px 0;font-style:italic;
+}
+
+/* 影像墙 */
+.bjk-wall{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.bjk-wall-item{
+  border-radius:12px;overflow:hidden;position:relative;
+  border:1px solid var(--bjk-line);transition:.3s;
+}
+.bjk-wall-item:hover{transform:translateY(-4px);border-color:rgba(255,209,102,.55)}
+.bjk-wall-item img{width:100%;height:100%;object-fit:cover;display:block}
+.bjk-wall-a{grid-column:span 2;grid-row:span 2}
+.bjk-wall-b{grid-column:span 2;grid-row:span 1}
+.bjk-wall-c{grid-column:span 1;grid-row:span 1}
+.bjk-wall-d{grid-column:span 2;grid-row:span 1}
+.bjk-wall-e{grid-column:span 3;grid-row:span 1}
+.bjk-wall-f{grid-column:span 1;grid-row:span 1}
+.bjk-wall-item span{
+  position:absolute;left:0;right:0;bottom:0;padding:16px 12px 9px;
+  font-size:12px;font-weight:700;color:#fff;
+  background:linear-gradient(180deg,transparent,rgba(10,8,14,.9));
+}
+
+/* 评论 */
+.bjk-comments{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.bjk-cm{
+  background:var(--bjk-ink-3);border:1px solid var(--bjk-line);
+  border-radius:14px;padding:16px 18px;position:relative;transition:.25s;
+}
+.bjk-cm:hover{border-color:rgba(255,45,85,.4)}
+.bjk-cm-head{display:flex;align-items:center;gap:9px;margin-bottom:9px}
+.bjk-cm-name{font-size:13.5px;font-weight:700}
+.bjk-cm-time{font-size:11.5px;color:#7e7793;margin-left:auto}
+.bjk-cm-text{font-size:13.5px;color:#b9b2c8;line-height:1.8}
+.bjk-cm-like{
+  font-size:12px;color:#8d86a0;margin-top:10px;display:inline-flex;align-items:center;gap:5px;transition:.2s;
+}
+.bjk-cm-like:hover{color:var(--bjk-red)}
+
+/* 数据榜单 */
+.bjk-rank-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.bjk-rank-card{
+  background:var(--bjk-ink-2);border:1px solid var(--bjk-line);
+  border-radius:var(--bjk-radius);padding:20px 22px;
+}
+.bjk-rank-card h3{font-size:16px;font-weight:800;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.bjk-rank-card h3 i{width:6px;height:16px;background:var(--bjk-red);border-radius:3px;display:inline-block}
+.bjk-rank-row{display:flex;align-items:center;gap:11px;padding:9px 0;border-bottom:1px dashed rgba(255,255,255,.09);font-size:13.5px}
+.bjk-rank-row:last-child{border-bottom:none}
+.bjk-rank-no{width:20px;flex:none;font-weight:900;color:#6f6884;font-size:13px}
+.bjk-rank-row:nth-child(2) .bjk-rank-no{color:var(--bjk-yellow)}
+.bjk-rank-row:nth-child(3) .bjk-rank-no{color:var(--bjk-red)}
+.bjk-rank-tt{flex:1;line-height:1.45}
+.bjk-rank-val{font-size:11.5px;color:#8d86a0;flex:none}
+
+/* 动态 + FAQ */
+.bjk-two-col{display:grid;grid-template-columns:1fr 1fr;gap:44px}
+.bjk-news-item{
+  display:flex;gap:16px;padding:16px 0;border-bottom:1px solid rgba(255,255,255,.08);
+}
+.bjk-news-date{
+  flex:none;width:62px;text-align:center;background:var(--bjk-ink-3);
+  border-radius:10px;padding:7px 0;border:1px solid var(--bjk-line);
+}
+.bjk-news-date b{display:block;font-size:17px;font-weight:900;color:var(--bjk-yellow);line-height:1.2}
+.bjk-news-date span{font-size:11px;color:#8d86a0}
+.bjk-news-body h3{font-size:14.5px;font-weight:700;margin-bottom:5px;line-height:1.5}
+.bjk-news-body p{font-size:12.5px;color:#a49db4;line-height:1.7}
+.bjk-faq details{
+  background:var(--bjk-ink-3);border:1px solid var(--bjk-line);
+  border-radius:12px;margin-bottom:12px;overflow:hidden;
+}
+.bjk-faq summary{
+  cursor:pointer;padding:14px 18px;font-size:14px;font-weight:700;
+  list-style:none;position:relative;
+}
+.bjk-faq summary::-webkit-details-marker{display:none}
+.bjk-faq summary::after{
+  content:"+";position:absolute;right:18px;top:50%;transform:translateY(-50%);
+  color:var(--bjk-red);font-size:18px;font-weight:900;transition:.25s;
+}
+.bjk-faq details[open] summary::after{content:"−"}
+.bjk-faq details[open] summary{color:var(--bjk-yellow)}
+.bjk-faq .bjk-faq-body{padding:0 18px 16px;font-size:13px;color:#a49db4;line-height:1.85}
+
+/* 伙伴墙 */
+.bjk-partners{display:flex;flex-wrap:wrap;gap:14px}
+.bjk-partner{
+  flex:1 1 160px;text-align:center;padding:18px 10px;border-radius:12px;
+  border:1px dashed rgba(255,255,255,.16);font-size:13.5px;font-weight:700;color:#b3acc2;
+  transition:.25s;
+}
+.bjk-partner:hover{border-color:var(--bjk-yellow);color:var(--bjk-yellow);background:rgba(255,209,102,.05)}
+
+/* 联系 CTA */
+.bjk-cta{
+  background:
+    radial-gradient(600px 260px at 18% 20%,rgba(255,45,85,.35),transparent 62%),
+    radial-gradient(560px 260px at 88% 90%,rgba(139,27,255,.32),transparent 64%),
+    var(--bjk-ink-2);
+  border:1px solid var(--bjk-line);border-radius:22px;
+  padding:44px;display:grid;grid-template-columns:1.2fr .8fr;gap:34px;align-items:center;
+}
+.bjk-cta h2{font-size:26px;font-weight:900;line-height:1.4;margin-bottom:12px}
+.bjk-cta p{font-size:14px;color:#b3acc2;line-height:1.9}
+.bjk-cta-acts{display:flex;flex-direction:column;gap:12px}
+.bjk-cta-btn{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:14px 20px;border-radius:12px;font-size:14px;font-weight:700;
+  background:rgba(255,255,255,.06);border:1px solid var(--bjk-line);transition:.25s;
+}
+.bjk-cta-btn:hover{background:var(--bjk-red);border-color:var(--bjk-red);transform:translateX(4px)}
+.bjk-cta-btn span{font-size:17px;opacity:.7}
+
+/* 页脚 */
+.bjk-foot{
+  background:#0f0d15;border-top:1px solid var(--bjk-line);
+  padding:48px 0 26px;margin-top:20px;font-size:13.5px;color:#8d86a0;
+}
+.bjk-foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:34px;margin-bottom:32px}
+.bjk-foot-brand p{font-size:13px;line-height:1.9;color:#8d86a0;margin-top:12px;max-width:320px}
+.bjk-foot h4{font-size:13.5px;color:#e6e1ef;font-weight:800;margin-bottom:13px;letter-spacing:.5px}
+.bjk-foot ul{list-style:none;display:flex;flex-direction:column;gap:8px;font-size:13px}
+.bjk-foot ul a:hover{color:var(--bjk-yellow)}
+.bjk-foot-bottom{
+  border-top:1px solid rgba(255,255,255,.08);padding-top:20px;
+  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12.5px;color:#6f6884;
+}
+.bjk-foot-bottom a:hover{color:var(--bjk-yellow)}
+
+/* 弹层 + Toast + 回到顶部 */
+.bjk-modal{
+  position:fixed;inset:0;z-index:200;display:none;
+  background:rgba(8,6,12,.78);backdrop-filter:blur(4px);
+  align-items:center;justify-content:center;padding:20px;
+}
+.bjk-modal.show{display:flex}
+.bjk-modal-box{
+  background:var(--bjk-ink-2);border:1px solid var(--bjk-line);
+  border-radius:18px;padding:28px;width:min(480px,94vw);
+  box-shadow:var(--bjk-shadow);position:relative;
+}
+.bjk-modal-box h3{font-size:19px;font-weight:900;margin-bottom:8px}
+.bjk-modal-box p{font-size:13.5px;color:#a49db4;line-height:1.8;margin-bottom:18px}
+.bjk-modal-box label{display:block;font-size:12.5px;color:#b3acc2;margin:12px 0 6px}
+.bjk-modal-box input,.bjk-modal-box textarea,.bjk-modal-box select{
+  width:100%;background:var(--bjk-ink-3);border:1px solid var(--bjk-line);
+  border-radius:9px;padding:10px 12px;color:#fff;font-size:13.5px;outline:none;font-family:inherit;
+}
+.bjk-modal-box input:focus,.bjk-modal-box textarea:focus{border-color:var(--bjk-red)}
+.bjk-modal-box textarea{resize:vertical;min-height:88px}
+.bjk-modal-close{
+  position:absolute;right:16px;top:12px;font-size:22px;color:#8d86a0;line-height:1;
+}
+.bjk-modal-close:hover{color:var(--bjk-red)}
+.bjk-modal-acts{display:flex;gap:10px;margin-top:18px}
+.bjk-modal-acts .bjk-btn{padding:9px 20px;font-size:13.5px}
+.bjk-toast{
+  position:fixed;left:50%;bottom:38px;transform:translate(-50%,18px);
+  background:rgba(33,29,43,.97);border:1px solid rgba(255,209,102,.45);
+  color:var(--bjk-yellow);font-size:13.5px;font-weight:700;
+  padding:11px 22px;border-radius:12px;z-index:300;
+  opacity:0;pointer-events:none;transition:.3s;box-shadow:var(--bjk-shadow);
+}
+.bjk-toast.show{opacity:1;transform:translate(-50%,0)}
+.bjk-top{
+  position:fixed;right:24px;bottom:26px;z-index:150;
+  width:44px;height:44px;border-radius:50%;background:var(--bjk-red);color:#fff;
+  display:grid;place-items:center;font-size:18px;font-weight:900;
+  box-shadow:0 10px 24px rgba(255,45,85,.4);opacity:0;pointer-events:none;transition:.3s;
+}
+.bjk-top.show{opacity:1;pointer-events:auto}
+.bjk-top:hover{background:var(--bjk-yellow);color:var(--bjk-ink)}
+.bjk-hidden{display:none !important}
+
+/* 响应式 */
+@media(max-width:1024px){
+  .bjk-hero-grid,.bjk-focus-grid,.bjk-deep,.bjk-cta{grid-template-columns:1fr}
+  .bjk-stream,.bjk-creators,.bjk-rank-grid{grid-template-columns:repeat(2,1fr)}
+  .bjk-special{grid-template-columns:repeat(2,1fr)}
+  .bjk-deep-side{position:static}
+  .bjk-hero-cover{transform:none}
+  .bjk-wall{grid-template-columns:repeat(4,1fr)}
+  .bjk-wall-e{grid-column:span 2}
+  .bjk-foot-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:820px){
+  .bjk-nav,.bjk-search{display:none}
+  .bjk-burger{display:block;margin-left:auto}
+  .bjk-notice-list{gap:18px;font-size:12.5px}
+  .bjk-comments,.bjk-two-col{grid-template-columns:1fr}
+  .bjk-focus-side{grid-template-rows:none}
+}
+@media(max-width:620px){
+  .bjk-stream,.bjk-creators,.bjk-special,.bjk-rank-grid{grid-template-columns:1fr}
+  .bjk-wall{grid-template-columns:repeat(2,1fr)}
+  .bjk-wall-a,.bjk-wall-b,.bjk-wall-d,.bjk-wall-e{grid-column:span 2}
+  .bjk-wall-c,.bjk-wall-f{grid-column:span 1}
+  .bjk-notice-inner{gap:8px}
+  .bjk-notice-item:nth-child(3){display:none}
+  .bjk-cta{padding:28px}
+  .bjk-hero-stats{gap:22px}
+  .bjk-foot-grid{grid-template-columns:1fr}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="bjk-sticky">
+  <div class="bjk-notice" id="bjkNotice">
+    <div class="bjk-notice-inner">
+      <span class="bjk-notice-tag">更新</span>
+      <div class="bjk-notice-list" id="bjkNoticeList">
+        <span class="bjk-notice-item">「夜间档案」第三季 8 集已上线 · 新增深夜来信征集通道</span>
+        <span class="bjk-notice-item">11 月主题企划《不关机的人》报名进行中，投稿截止 11 月 30 日</span>
+        <span class="bjk-notice-item">创作者扶持计划第 6 期名单公布，新增 24 位签约作者</span>
+      </div>
+      <button class="bjk-notice-close" id="bjkNoticeClose" aria-label="关闭公告">×</button>
+    </div>
+  </div>
+  <header class="bjk-head">
+    <div class="bjk-head-inner">
+      <a class="bjk-logo" href="#bjkTop">
+        <span class="bjk-logo-mark" aria-hidden="true"></span>
+        <span class="bjk-logo-txt">24小时不打烊<em>黑料</em></span>
+      </a>
+      <nav class="bjk-nav" aria-label="主导航">
+        <a href="#bjkHero">首页</a>
+        <a href="#bjkFocus">焦点内容</a>
+        <a href="#bjkSpecial">专题企划</a>
+        <a href="#bjkCreators">创作者</a>
+        <a href="#bjkDeep">深度解析</a>
+        <a href="#bjkNews">企业动态</a>
+        <a href="#bjkFaq">帮助</a>
+        <a href="#bjkContact">联系</a>
+      </nav>
+      <div class="bjk-search" style="position:relative">
+        <input type="text" id="bjkSearchInput" placeholder="搜索档案 / 创作者 / 专题" aria-label="站内搜索">
+        <button id="bjkSearchBtn">搜索</button>
+        <div class="bjk-search-tip" id="bjkSearchTip"></div>
+      </div>
+      <button class="bjk-burger" id="bjkBurger" aria-label="展开菜单">☰</button>
+    </div>
+    <nav class="bjk-mobile-nav" id="bjkMobileNav" aria-label="移动端导航">
+      <a href="#bjkHero">首页</a>
+      <a href="#bjkFocus">焦点内容</a>
+      <a href="#bjkSpecial">专题企划</a>
+      <a href="#bjkCreators">创作者</a>
+      <a href="#bjkDeep">深度解析</a>
+      <a href="#bjkNews">企业动态</a>
+      <a href="#bjkFaq">帮助</a>
+      <a href="#bjkContact">联系</a>
+    </nav>
+  </header>
+</div>
+
+<main id="bjkTop">
+
+  <!-- 首屏 -->
+  <section class="bjk-hero" id="bjkHero">
+    <div class="bjk-wrap">
+      <div class="bjk-hero-grid">
+        <div>
+          <span class="bjk-hero-badge"><i></i>官方网站 · 品牌内容门户</span>
+          <h1 class="bjk-h1">24小时不打烊<span>黑料</span></h1>
+          <p class="bjk-hero-sub">一座不熄灯的真实影像档案馆，把深夜里的故事、行业里的褶皱与人群中的微光，一件件记录、剪辑、装订成册。</p>
+          <p class="bjk-hero-desc">作为国内持续运营的深度内容品牌，24小时不打烊黑料官方网站以原创影像与文字档案为核心，围绕真实事件、行业观察与个体命运搭建高品质内容生态。我们相信，被认真记录下来的细节，最终会成为一种温柔而有力的公共记忆。</p>
+          <div class="bjk-hero-btns">
+            <a class="bjk-btn bjk-btn-main" href="#bjkFocus">进入焦点档案</a>
+            <a class="bjk-btn bjk-btn-ghost" href="#bjkCreators">查看创作者矩阵</a>
+            <button class="bjk-btn bjk-btn-ghost" data-bjk-open="submit">我要投稿</button>
+          </div>
+          <div class="bjk-hero-stats">
+            <div class="bjk-hero-stat"><b data-bjk-count="1286">0</b><span>入库影像档案</span></div>
+            <div class="bjk-hero-stat"><b data-bjk-count="246">0</b><span>签约创作者</span></div>
+            <div class="bjk-hero-stat"><b data-bjk-count="58">0<em>万</em></b><span>社区注册用户</span></div>
+          </div>
+        </div>
+        <div class="bjk-hero-visual">
+          <div class="bjk-hero-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 400'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23211d2b'/%3E%3Cstop offset='1' stop-color='%2316141c'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23ff2d55'/%3E%3Cstop offset='1' stop-color='%239b5cff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='400' fill='url(%23a)'/%3E%3Ccircle cx='500' cy='96' r='132' fill='%23ff2d55' opacity='.22'/%3E%3Ccircle cx='130' cy='330' r='96' fill='%239b5cff' opacity='.2'/%3E%3Cg stroke='%23ffffff' stroke-opacity='.14'%3E%3Cpath d='M0 250 L640 178'/%3E%3Cpath d='M0 300 L640 228'/%3E%3Cpath d='M0 350 L640 278'/%3E%3C/g%3E%3Crect x='84' y='84' width='300' height='188' rx='14' fill='%23100e16' stroke='url(%23b)' stroke-width='3'/%3E%3Crect x='100' y='102' width='120' height='10' rx='5' fill='%23ff2d55'/%3E%3Crect x='100' y='126' width='220' height='8' rx='4' fill='%23ffffff' opacity='.35'/%3E%3Crect x='100' y='148' width='186' height='8' rx='4' fill='%23ffffff' opacity='.24'/%3E%3Crect x='100' y='170' width='240' height='8' rx='4' fill='%23ffffff' opacity='.18'/%3E%3Ccircle cx='130' cy='228' r='17' fill='%23ffd166'/%3E%3Cpath d='M125 220 L141 228 L125 236 Z' fill='%23100e16'/%3E%3Crect x='158' y='222' width='96' height='8' rx='4' fill='%23ffffff' opacity='.3'/%3E%3Cg fill='%23ffd166'%3E%3Ccircle cx='470' cy='252' r='4'/%3E%3Ccircle cx='500' cy='252' r='4'/%3E%3Ccircle cx='530' cy='252' r='4'/%3E%3C/g%3E%3Cpath d='M430 300 L610 300 L610 340 L430 340 Z' fill='%23100e16' opacity='.7'/%3E%3Crect x='446' y='312' width='80' height='7' rx='3' fill='%23ff2d55'/%3E%3Crect x='446' y='326' width='130' height='6' rx='3' fill='%23ffffff' opacity='.26'/%3E%3C/svg%3E" alt="24小时不打烊黑料品牌主视觉：深夜档案室与影像屏幕">
+          </div>
+          <div class="bjk-hero-float2">LIVE · 夜间值守中</div>
+          <div class="bjk-hero-float">
+            <b>本周新增档案 36 条</b>
+            <span>来自 12 座城市的创作者投稿</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 焦点内容 -->
+  <section class="bjk-sec bjk-sec-alt" id="bjkFocus">
+    <div class="bjk-wrap">
+      <div class="bjk-sec-head">
+        <span class="bjk-eyebrow">FOCUS / 焦点内容</span>
+        <h2 class="bjk-h2">今夜头条：被认真记录的六个现场</h2>
+        <p class="bjk-sec-lead">焦点内容由编辑部与签约创作者共同完成，从选题会到成片平均耗时 21 天。我们更在意镜头之外的耐心，而不只是一次性的传播热度。</p>
+      </div>
+      <div class="bjk-focus-grid">
+        <article class="bjk-vcard">
+          <div class="bjk-vcard-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='x' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232b1f3a'/%3E%3Cstop offset='1' stop-color='%23120f19'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23x)'/%3E%3Cg fill='%23ffffff' opacity='.1'%3E%3Ccircle cx='90' cy='70' r='2'/%3E%3Ccircle cx='180' cy='44' r='2'/%3E%3Ccircle cx='300' cy='88' r='2'/%3E%3Ccircle cx='420' cy='52' r='2'/%3E%3Ccircle cx='540' cy='96' r='2'/%3E%3C/g%3E%3Crect x='70' y='230' width='500' height='10' rx='5' fill='%23ff2d55' opacity='.7'/%3E%3Cg fill='%23ff2d55' opacity='.8'%3E%3Crect x='120' y='112' width='36' height='106' rx='5'/%3E%3Crect x='168' y='152' width='36' height='66' rx='5'/%3E%3Crect x='216' y='86' width='36' height='132' rx='5'/%3E%3Crect x='264' y='132' width='36' height='86' rx='5'/%3E%3C/g%3E%3Cg fill='%23ffd166' opacity='.75'%3E%3Crect x='340' y='166' width='36' height='52' rx='5'/%3E%3Crect x='388' y='120' width='36' height='98' rx='5'/%3E%3Crect x='436' y='146' width='36' height='72' rx='5'/%3E%3Crect x='484' y='98' width='36' height='120' rx='5'/%3E%3C/g%3E%3Crect x='70' y='252' width='392' height='9' rx='4' fill='%23ffffff' opacity='.28'/%3E%3Crect x='70' y='272' width='266' height='7' rx='3' fill='%23ffffff' opacity='.16'/%3E%3C/svg%3E" alt="焦点影像：凌晨三点仍在运转的城市数据现场">
+            <span class="bjk-vcard-tag">焦点 · 深度影像</span>
+            <span class="bjk-vcard-dur">42:18</span>
+            <span class="bjk-play" aria-hidden="true"></span>
+          </div>
+          <div class="bjk-vcard-body">
+            <h3 class="bjk-vcard-title">凌晨三点的城市后台：谁在替一座城守夜</h3>
+            <p class="bjk-vcard-ex">我们跟拍了 11 个夜班岗位：调度员、便利店店员、急诊护士、数据机房值守者。镜头没有配乐，只有键盘、脚步与微波炉的提示音，构成一份关于城市运转的真实底噪。</p>
+            <div class="bjk-vcard-meta">
+              <span class="bjk-avatar">夜</span>
+              <span>夜航档案组</span>
+              <span>· 42.8 万热度</span>
+              <div class="bjk-mini-actions">
+                <button class="bjk-act" data-bjk-like>♡ <b>2.4k</b></button>
+                <button class="bjk-act" data-bjk-save>☆ 收藏</button>
+                <button class="bjk-act" data-bjk-share>分享</button>
+              </div>
+            </div>
+          </div>
+        </article>
+        <div class="bjk-focus-side">
+          <article class="bjk-vcard bjk-vcard-sm">
+            <div class="bjk-vcard-cover">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Crect width='400' height='250' fill='%231c2438'/%3E%3Cg stroke='%2360a5fa' stroke-opacity='.55'%3E%3Cpath d='M0 200 Q100 150 200 190 T400 160' fill='none'/%3E%3Cpath d='M0 170 Q90 120 200 160 T400 130' fill='none'/%3E%3C/g%3E%3Ccircle cx='300' cy='80' r='42' fill='%23ffd166' opacity='.75'/%3E%3Crect x='40' y='196' width='120' height='8' rx='4' fill='%23ffffff' opacity='.3'/%3E%3C/svg%3E" alt="短视频封面：夜班公交末班车沿江行驶">
+              <span class="bjk-play" aria-hidden="true"></span>
+            </div>
+            <div class="bjk-vcard-body">
+              <h3 class="bjk-vcard-title">末班车之后：一位夜班公交司机的 17 年</h3>
+              <p class="bjk-vcard-ex">城市探索 · 18:02</p>
+              <div class="bjk-mini-actions">
+                <button class="bjk-act" data-bjk-like>♡ <b>861</b></button>
+                <button class="bjk-act" data-bjk-save>☆</button>
+              </div>
+            </div>
+          </article>
+          <article class="bjk-vcard bjk-vcard-sm">
+            <div class="bjk-vcard-cover">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Crect width='400' height='250' fill='%23302a1c'/%3E%3Cg fill='%23f59e0b' opacity='.85'%3E%3Crect x='70' y='120' width='16' height='90' rx='8'/%3E%3Crect x='100' y='96' width='16' height='114' rx='8'/%3E%3Crect x='130' y='140' width='16' height='70' rx='8'/%3E%3C/g%3E%3Cg fill='%23ffffff' opacity='.18'%3E%3Crect x='190' y='110' width='150' height='9' rx='4'/%3E%3Crect x='190' y='134' width='120' height='9' rx='4'/%3E%3Crect x='190' y='158' width='160' height='9' rx='4'/%3E%3C/g%3E%3Ccircle cx='320' cy='66' r='28' fill='%23ef4444' opacity='.6'/%3E%3C/svg%3E" alt="短视频封面：深夜厨房的备菜与油烟">
+              <span class="bjk-play" aria-hidden="true"></span>
+            </div>
+            <div class="bjk-vcard-body">
+              <h3 class="bjk-vcard-title">打烊之后：一家小馆子的凌晨备料房</h3>
+              <p class="bjk-vcard-ex">生活方式 · 22:47</p>
+              <div class="bjk-mini-actions">
+                <button class="bjk-act" data-bjk-like>♡ <b>1.3k</b></button>
+                <button class="bjk-act" data-bjk-save>☆</button>
+              </div>
+            </div>
+          </article>
+          <article class="bjk-vcard bjk-vcard-sm">
+            <div class="bjk-vcard-cover">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Crect width='400' height='250' fill='%23231d33'/%3E%3Cg stroke='%23a78bfa' fill='none' stroke-width='2'%3E%3Crect x='60' y='60' width='280' height='130' rx='8'/%3E%3Cpath d='M60 96 H340'/%3E%3C/g%3E%3Cg fill='%23a78bfa' opacity='.65'%3E%3Crect x='82' y='120' width='60' height='8' rx='4'/%3E%3Crect x='82' y='140' width='120' height='8' rx='4'/%3E%3Crect x='82' y='160' width='90' height='8' rx='4'/%3E%3C/g%3E%3Ccircle cx='320' cy='132' r='22' fill='%23ff2d55' opacity='.8'/%3E%3C/svg%3E" alt="短视频封面：访谈现场的笔记本电脑与录音稿">
+              <span class="bjk-play" aria-hidden="true"></span>
+            </div>
+            <div class="bjk-vcard-body">
+              <h3 class="bjk-vcard-title">他们说这行不体面：三位夜班编辑的坦白局</h3>
+              <p class="bjk-vcard-ex">人物访谈 · 31:05</p>
+              <div class="bjk-mini-actions">
+                <button class="bjk-act" data-bjk-like>♡ <b>2.1k</b></button>
+                <button class="bjk-act" data-bjk-save>☆</button>
+              </div>
+            </div>
+          </article>
+          <article class="bjk-vcard bjk-vcard-sm">
+            <div class="bjk-vcard-cover">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Crect width='400' height='250' fill='%2314211f'/%3E%3Cg stroke='%2334d399' fill='none' stroke-width='2' opacity='.8'%3E%3Cpath d='M40 190 Q120 110 200 160 T360 100'/%3E%3C/g%3E%3Cg fill='%2334d399' opacity='.7'%3E%3Ccircle cx='110' cy='130' r='7'/%3E%3Ccircle cx='230' cy='158' r='7'/%3E%3Ccircle cx='320' cy='108' r='7'/%3E%3C/g%3E%3Crect x='40' y='206' width='180' height='8' rx='4' fill='%23ffffff' opacity='.24'/%3E%3C/svg%3E" alt="短视频封面：夜间骑行路线轨迹图">
+              <span class="bjk-play" aria-hidden="true"></span>
+            </div>
+            <div class="bjk-vcard-body">
+              <h3 class="bjk-vcard-title">沿着外环骑行 46 公里，我采访了 9 位夜行人</h3>
+              <p class="bjk-vcard-ex">户外活动 · 27:36</p>
+              <div class="bjk-mini-actions">
+                <button class="bjk-act" data-bjk-like>♡ <b>976</b></button>
+                <button class="bjk-act" data-bjk-save>☆</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 热门视频流 -->
+  <section class="bjk-sec" id="bjkStream">
+    <div class="bjk-wrap">
+      <div class="bjk-sec-head">
+        <span class="bjk-eyebrow">STREAM / 热门视频流</span>
+        <h2 class="bjk-h2">正在被观看的档案</h2>
+        <p class="bjk-sec-lead">按标签浏览你关心的方向。所有内容均为原创或已获授权，正版高清素材可在创作者后台获取下载地址。</p>
+      </div>
+      <div class="bjk-tabs" id="bjkTabs">
+        <button class="bjk-tab active" data-bjk-filter="all">全部</button>
+        <button class="bjk-tab" data-bjk-filter="城市">城市探索</button>
+        <button class="bjk-tab" data-bjk-filter="人物">人物访谈</button>
+        <button class="bjk-tab" data-bjk-filter="技巧">实用技巧</button>
+        <button class="bjk-tab" data-bjk-filter="治愈">治愈影像</button>
+      </div>
+      <div class="bjk-stream" id="bjkStreamGrid">
+        <article class="bjk-vcard" data-bjk-tag="城市">
+          <div class="bjk-vcard-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 560 315'%3E%3Crect width='560' height='315' fill='%231b1a26'/%3E%3Cg fill='%23ff2d55' opacity='.28'%3E%3Crect x='60' y='120' width='52' height='150'/%3E%3Crect x='128' y='80' width='52' height='190'/%3E%3Crect x='196' y='150' width='52' height='120'/%3E%3C/g%3E%3Cg fill='%23ffd166' opacity='.7'%3E%3Crect x='290' y='60' width='60' height='210'/%3E%3Crect x='366' y='112' width='60' height='158'/%3E%3C/g%3E%3Cg fill='%23ffffff' opacity='.18'%3E%3Crect x='60' y='284' width='440' height='8' rx='4'/%3E%3C/g%3E%3C/svg%3E" alt="视频封面：夜间城市楼宇天际线">
+            <span class="bjk-vcard-tag">城市探索</span>
+            <span class="bjk-vcard-dur">16:22</span>
+            <span class="bjk-play" aria-hidden="true"></span>
+          </div>
+          <div class="bjk-vcard-body">
+            <h3 class="bjk-vcard-title">城市褶皱：那些地图上搜不到的巷子</h3>
+            <p class="bjk-vcard-ex">四条老街、两家修表铺、一间开了三十年的裁缝店，被拆迁公告贴上之后，我们决定用一个月把它们拍完。</p>
+            <div class="bjk-vcard-meta">
+              <span class="bjk-avatar g2">巷</span><span>巷口观察员</span>
+              <div class="bjk-mini-actions">
+                <button class="bjk-act" data-bjk-like>♡ <b>3.2k</b></button>
+                <button class="bjk-act" data-bjk-save>☆</button>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="bjk-vcard" data-bjk-tag="人物">
+          <div class="bjk-vcard-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 560 315'%3E%3Crect width='560' height='315' fill='%232a2135'/%3E%3Ccircle cx='280' cy='140' r='68' fill='%23ffd166' opacity='.75'/%3E%3Cpath d='M212 140 a68 68 0 0 1 136 0' fill='%231b1622'/%3E%3Cg fill='%23ffffff' opacity='.2'%3E%3Crect x='150' y='236' width='260' height='9' rx='4'/%3E%3Crect x='190' y='258' width='180' height='7' rx='3'/%3E%3C/g%3E%3Cg stroke='%23ff2d55' stroke-width='3' fill='none' opacity='.7'%3E%3Ccircle cx='126' cy='82' r='20'/%3E%3Ccircle cx='440' cy='96' r='14'/%3E%3C/g%3E%3C/svg%3E" alt="视频封面：对谈节目中的嘉宾剪影与光斑">
+            <span class="bjk-vcard-tag">人物访谈</span>
+            <span class="bjk-vcard-dur">38:14</span>
+            <span class="bjk-play" aria-hidden="true"></span>
+          </div>
+          <div class="bjk-vcard-body">
+            <h3 class="bjk-vcard-title">做了 20 年危机公关，她说最难的是沉默</h3>
+            <p class="bjk-vcard-ex">一场持续四小时的长谈，聊行业里的灰色地带、职业倦怠，以及她为什么最终选择公开自己的失败案例。</p>
+            <div class="bjk-vcard-meta">
+              <span class="bjk-avatar g3">陈</span><span>陈默的会客厅</span>
+              <div class="bjk-mini-actions">
+                <button class="bjk-act" data-bjk-like>♡ <b>5.7k</b></button>
+                <button class="bjk-act" data-bjk-save>☆</button>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="bjk-vcard" data-bjk-tag="技巧">
+          <div class="bjk-vcard-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 560 315'%3E%3Crect width='560' height='315' fill='%23152028'/%3E%3Cg stroke='%2338bdf8' fill='none' stroke-width='2' opacity='.7'%3E%3Cpath d='M60 250 L180 160 L260 210 L400 96 L500 150'/%3E%3C/g%3E%3Cg fill='%2338bdf8' opacity='.85'%3E%3Ccircle cx='180' cy='160' r='6'/%3E%3Ccircle cx='260' cy='210' r='6'/%3E%3Ccircle cx='400' cy='96' r='6'/%3E%3C/g%3E%3Crect x='60' y='60' width='140' height='10' rx='5' fill='%23ffd166' opacity='.8'/%3E%3C/svg%3E" alt="视频封面：剪辑时间线与音频波形示意图">
+            <span class="bjk-vcard-tag">实用技巧</span>
+            <span class="bjk-vcard-dur">12:48</span>
+            <span class="bjk-play" aria-hidden="true"></span>
+          </div>
+          <div class="bjk-vcard-body">
+            <h3 class="bjk-vcard-title">调查类短片剪辑攻略：如何让证据自己说话</h3>
+            <p class="bjk-vcard-ex">从素材整理、时间轴搭建到关键帧处理，拆解三条真实项目的剪辑思路，附可复用的工程文件结构。</p>
+            <div class="bjk-vcard-meta">
+              <span class="bjk-avatar g5">剪</span><span>剪辑间老周</span>
+              <div class="bjk-mini-actions">
+                <button class="bjk-act" data-bjk-like>♡ <b>4.1k</b></button>
+                <button class="bjk-act" data-bjk-save>☆</button>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="bjk-vcard" data-bjk-tag="治愈">
+          <div class="bjk-vcard-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 560 315'%3E%3Crect width='560' height='315' fill='%231d2a24'/%3E%3Ccircle cx='430' cy='80' r='46' fill='%23fde68a' opacity='.8'/%3E%3Cg stroke='%2334d399' stroke-width='2' fill='none' opacity='.6'%3E%3Cpath d='M0 240 Q140 190 280 232 T560 200'/%3E%3Cpath d='M0 268 Q160 220 300 258 T560 230'/%3E%3C/g%3E%3Cg fill='%23ffffff' opacity='.2'%3E%3Crect x='50' y='120' width='120' height='8' rx='4'/%3E%3C/g%3E%3C/svg%3E" alt="视频封面：清晨薄雾中的草地与光">
+            <span class="bjk-vcard-tag">治愈影像</span>
+            <span class="bjk-vcard-dur">09:31</span>
+            <span class="bjk-play" aria-hidden="true"></span>
+          </div>
+          <div class="bjk-vcard-body">
+            <h3 class="bjk-vcard-title">值完第 100 个夜班，我拍下了城市醒来的样子</h3>
+            <p class="bjk-vcard-ex">没有旁白，没有采访，只有从凌晨四点到七点的天光变化，和一位护士交接班之后的早餐。</p>
+            <div class="bjk-vcard-meta">
+              <span class="bjk-avatar g4">林</span><span>林间记录</span>
+              <div class="bjk-mini-actions">
+                <button class="bjk-act" data-bjk-like>♡ <b>6.8k</b></button>
+                <button class="bjk-act" data-bjk-save>☆</button>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="bjk-vcard" data-bjk-tag="城市">
+          <div class="bjk-vcard-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 560 315'%3E%3Crect width='560' height='315' fill='%23251a1a'/%3E%3Cg fill='%23ff6b3d' opacity='.7'%3E%3Crect x='70' y='150' width='120' height='90' rx='6'/%3E%3Crect x='210' y='110' width='150' height='130' rx='6'/%3E%3C/g%3E%3Cg fill='%23ffffff' opacity='.22'%3E%3Crect x='90' y='176' width='80' height='7' rx='3'/%3E%3Crect x='232' y='140' width='106' height='7' rx='3'/%3E%3C/g%3E%3Ccircle cx='450' cy='90' r='34' fill='%23ffd166' opacity='.7'/%3E%3C/svg%3E" alt="视频封面：老厂房改造的创意园区夜景">
+            <span class="bjk-vcard-tag">城市探索</span>
+            <span class="bjk-vcard-dur">21:09</span>
+            <span class="bjk-play" aria-hidden="true"></span>
+          </div>
+          <div class="bjk-vcard-body">
+            <h3 class="bjk-vcard-title">厂房改园区第七年，第一批入驻者在想什么</h3>
+            <p class="bjk-vcard-ex">我们回访了 2019 年最早搬进来的五位主理人，聊租金、聊客流、也聊那些熬不下去的邻居。</p>
+            <div class="bjk-vcard-meta">
+              <span class="bjk-avatar g6">园</span><span>城市切片计划</span>
+              <div class="bjk-mini-actions">
+                <button class="bjk-act" data-bjk-like>♡ <b>1.9k</b></button>
+                <button class="bjk-act" data-bjk-save>☆</button>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="bjk-vcard" data-bjk-tag="技巧">
+          <div class="bjk-vcard-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 560 315'%3E%3Crect width='560' height='315' fill='%231a1c2b'/%3E%3Cg stroke='%23818cf8' fill='none' stroke-width='2' opacity='.7'%3E%3Crect x='80' y='80' width='160' height='100' rx='6'/%3E%3Crect x='260' y='130' width='140' height='90' rx='6'/%3E%3C/g%3E%3Cg fill='%23818cf8' opacity='.6'%3E%3Crect x='100' y='102' width='118' height='8' rx='4'/%3E%3Crect x='100' y='124' width='86' height='8' rx='4'/%3E%3C/g%3E%3Ccircle cx='450' cy='86' r='26' fill='%23ff2d55' opacity='.75'/%3E%3C/svg%3E" alt="视频封面：采访提纲与问题卡片排版">
+            <span class="bjk-vcard-tag">实用技巧</span>
+            <span class="bjk-vcard-dur">15:40</span>
+            <span class="bjk-play" aria-hidden="true"></span>
+          </div>
+          <div class="bjk-vcard-body">
+            <h3 class="bjk-vcard-title">采访前必做的 8 件事：从背景检索到问题排序</h3>
+            <p class="bjk-vcard-ex">一份被我们内部用了三年的采访准备清单，包含信息核验、受访者心理预期管理与突发情况预案。</p>
+            <div class="bjk-vcard-meta">
+              <span class="bjk-avatar g2">稿</span><span>编辑部手册</span>
+              <div class="bjk-mini-actions">
+                <button class="bjk-act" data-bjk-like>♡ <b>2.6k</b></button>
+                <button class="bjk-act" data-bjk-save>☆</button>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 专题 + 品牌深度解析 -->
+  <section class="bjk-sec bjk-sec-alt" id="bjkSpecial">
+    <div class="bjk-wrap">
+      <div class="bjk-sec-head">
+        <span class="bjk-eyebrow">SPECIAL / 专题企划</span>
+        <h2 class="bjk-h2">正在连载的四个长期企划</h2>
+        <p class="bjk-sec-lead">专题不是一次性的合集，而是持续数月甚至数年的在场。每个企划都配有独立的采访档案、影像素材库与开放投稿入口。</p>
+      </div>
+      <div class="bjk-special">
+        <article class="bjk-sp-card">
+          <div class="bjk-sp-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 400'%3E%3Crect width='320' height='400' fill='%231c1626'/%3E%3Ccircle cx='160' cy='150' r='86' fill='none' stroke='%23ff2d55' stroke-width='3' opacity='.7'/%3E%3Ccircle cx='160' cy='150' r='48' fill='none' stroke='%23ffd166' stroke-width='2' opacity='.7'/%3E%3Cpath d='M160 64 L160 236 M74 150 L246 150' stroke='%23ffffff' stroke-opacity='.16'/%3E%3Cg fill='%23ffffff' opacity='.2'%3E%3Crect x='60' y='292' width='200' height='9' rx='4'/%3E%3Crect x='86' y='316' width='148' height='7' rx='3'/%3E%3C/g%3E%3C/svg%3E" alt="专题封面：夜间档案第三季圆形时间刻度">
+          </div>
+          <div class="bjk-sp-info">
+            <h3>夜间档案 · 第三季</h3>
+            <p>以夜为单位的访谈与观察，记录那些在天亮前工作、思考、失眠的人。</p>
+            <span class="bjk-sp-state">更新至第 8 集</span>
+          </div>
+        </article>
+        <article class="bjk-sp-card">
+          <div class="bjk-sp-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 400'%3E%3Crect width='320' height='400' fill='%23241d16'/%3E%3Cg fill='%23f59e0b' opacity='.8'%3E%3Crect x='52' y='230' width='38' height='110' rx='4'/%3E%3Crect x='104' y='190' width='38' height='150' rx='4'/%3E%3Crect x='156' y='250' width='38' height='90' rx='4'/%3E%3Crect x='208' y='160' width='38' height='180' rx='4'/%3E%3C/g%3E%3Cg stroke='%23ffffff' stroke-opacity='.2'%3E%3Cpath d='M40 120 H280'/%3E%3Cpath d='M40 150 H280'/%3E%3C/g%3E%3Ccircle cx='250' cy='78' r='30' fill='%23ef4444' opacity='.65'/%3E%3C/svg%3E" alt="专题封面：城市夜经济数据柱状图">
+          </div>
+          <div class="bjk-sp-info">
+            <h3>不关机的人</h3>
+            <p>24 小时营业场所里的从业者群像，讨论劳动、尊严与被看见的可能。</p>
+            <span class="bjk-sp-state">持续征集中</span>
+          </div>
+        </article>
+        <article class="bjk-sp-card">
+          <div class="bjk-sp-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 400'%3E%3Crect width='320' height='400' fill='%23161f2b'/%3E%3Cg stroke='%2338bdf8' stroke-width='2' fill='none' opacity='.65'%3E%3Cpath d='M40 300 Q120 200 200 250 T300 160'/%3E%3C/g%3E%3Cg fill='%2338bdf8' opacity='.6'%3E%3Ccircle cx='120' cy='228' r='6'/%3E%3Ccircle cx='246' cy='210' r='6'/%3E%3C/g%3E%3Cg fill='%23ffffff' opacity='.18'%3E%3Crect x='44' y='80' width='120' height='9' rx='4'/%3E%3Crect x='44' y='104' width='86' height='9' rx='4'/%3E%3C/g%3E%3Crect x='200' y='70' width='76' height='76' rx='8' fill='%23ffd166' opacity='.6'/%3E%3C/svg%3E" alt="专题封面：信息溯源与路径图">
+          </div>
+          <div class="bjk-sp-info">
+            <h3>信息溯源手记</h3>
+            <p>一条消息如何被核实、被误读、被传播，我们公开每篇报道的信源分级。</p>
+            <span class="bjk-sp-state">已发布 14 篇</span>
+          </div>
+        </article>
+        <article class="bjk-sp-card">
+          <div class="bjk-sp-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 400'%3E%3Crect width='320' height='400' fill='%23201a2e'/%3E%3Cg fill='%23a78bfa' opacity='.75'%3E%3Ccircle cx='110' cy='140' r='40'/%3E%3Ccircle cx='200' cy='200' r='56'/%3E%3Ccircle cx='130' cy='280' r='32'/%3E%3C/g%3E%3Cg stroke='%23ffffff' stroke-opacity='.2'%3E%3Cpath d='M60 340 H260'/%3E%3C/g%3E%3Crect x='60' y='352' width='140' height='8' rx='4' fill='%23ff2d55' opacity='.8'/%3E%3C/svg%3E" alt="专题封面：创作者社群圆形头像聚合">
+          </div>
+          <div class="bjk-sp-info">
+            <h3>同行者计划</h3>
+            <p>面向新锐创作者的长期陪跑企划，包含选题辅导、拍摄支持与分发资源。</p>
+            <span class="bjk-sp-state">第 6 期招募中</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 深度解析长文 -->
+  <section class="bjk-sec" id="bjkDeep">
+    <div class="bjk-wrap">
+      <div class="bjk-deep">
+        <aside class="bjk-deep-side">
+          <span class="bjk-eyebrow">ABOUT / 品牌深度解析</span>
+          <h2>为什么我们坚持做“不打烊”的内容</h2>
+          <p>这是一家把编辑部作息调成 24 小时的视频品牌。不是为了熬夜而熬夜，而是因为很多真实发生在夜里。</p>
+          <div class="bjk-deep-list">
+            <div><i>01</i>选题自述：从一条私信开始的档案库</div>
+            <div><i>02</i>方法说明：信源分级与二次核验流程</div>
+            <div><i>03</i>内容生态：创作者、编辑与用户的三方协作</div>
+            <div><i>04</i>品牌愿景：让记录成为一种公共基础设施</div>
+          </div>
+        </aside>
+        <article class="bjk-deep-article">
+          <h3>一、从一句“你们能不能来看看”开始</h3>
+          <p>24小时不打烊黑料的第一条正式档案，来自一位读者的深夜私信。她说自己工作的便利店最近要关门了，货架清空的那天，夜班同事们在后门拍了一张合影，问我们能不能记录一下。那支片子最终只有 9 分钟，却在社区里被反复讨论了一个月。</p>
+          <p>从那之后，我们逐渐明确了自己的位置：<strong>不是追逐热点的资讯端口，而是愿意花时间下潜的记录者。</strong>我们把每一次采访都当作一次长期关系的开始，把每一段素材都当作可能在未来被重新调用的公共资产。这也是我们坚持建立独立档案库的原因——影像会过时，但档案不会。</p>
+          <h3>二、24小时不打烊黑料的内容方法</h3>
+          <p>作为持续运营的原创内容品牌，我们的工作流程被拆成四段：<strong>线索汇集、信源核验、在场拍摄、复盘归档</strong>。线索既来自编辑部，也来自社区投稿；核验阶段至少需要两个独立信源交叉确认；在场拍摄要求创作者保持克制，不用诱导性提问换取情绪；复盘归档则把所有素材、采访稿与拍摄日志整理入库，向签约创作者开放调用。</p>
+          <p>这套方法让我们的产出速度并不算快。一支 20 分钟的深度短片，平均需要 3 周的准备和 2 周的后期。但我们更看重另一种效率：当同类事件再次发生时，我们能在一小时内调出历史档案，做对照、做澄清、做更准确的表达。</p>
+          <h3>三、一个视频品牌的企业责任</h3>
+          <p>在深度内容领域，影响力往往意味着责任。<strong>24小时不打烊黑料官方网站</strong>对所有涉及个人隐私与未成年人内容执行更严格的审核标准，并在每支涉及敏感议题的片子末尾附上信源说明与更正渠道。我们也在内部建立了用户至上原则下的反馈闭环：任何一位观众都可以对内容提出质疑，编辑部需在 72 小时内给出书面回应。</p>
+          <p>这不是为了显得谨慎，而是因为我们清楚地知道，一次不严谨的表达，可能对当事人造成长期影响。匠心不只是画面和节奏，更是对事实的耐心。</p>
+          <blockquote class="bjk-quote">“我们不做审判者，只做把灯打开的人。至于光落在哪里，交给观看的人自己判断。”</blockquote>
+          <h3>四、内容生态与创作者成长</h3>
+          <p>平台目前签约创作者 246 位，覆盖 34 座城市。我们为新人提供的不只是流量，而是包括选题共创、拍摄设备支持、法务咨询与成片辅导在内的完整链路。过去两年，有 41 位创作者从投稿者成长为签约作者，也有 7 位作者在这里完成了自己的第一支长片。</p>
+          <p>与此同时，企业动态与官方发布保持高频更新：新专题上线、扶持名单公布、线下放映会报名、创作者挑战赛投票，都能在站内第一时间看到。我们希望这个品牌对用户而言是可信赖的，对创作者而言是有温度的，对行业而言是值得参考的一个样本。</p>
+          <h3>五、关于未来：把档案馆继续开下去</h3>
+          <p>24小时不打烊黑料将继续深耕深度影像这一垂直领域，拓展地域覆盖与题材边界。我们计划在 2027 年完成 2000 支原创档案的入库，并开放部分档案的公共检索。与此同时，社区将上线创作者协作组、选题投票与线下观影会报名功能，让更多人在记录与观看之间找到自己的位置。</p>
+          <p>如果你也有一个被忽略的现场，欢迎通过投稿入口告诉我们。它也许不会成为爆款，但它可能成为某个人多年之后仍在引用的那份证据。这就是我们理解的陪伴与力量。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 创作者矩阵 -->
+  <section class="bjk-sec bjk-sec-alt" id="bjkCreators">
+    <div class="bjk-wrap">
+      <div class="bjk-sec-head">
+        <span class="bjk-eyebrow">CREATORS / 创作者矩阵</span>
+        <h2 class="bjk-h2">镜头背后的人</h2>
+        <p class="bjk-sec-lead">他们有的曾经是记者，有的是夜班护士、剪辑师、街道办工作人员。共同点是：都愿意把注意力放在别人匆匆走过的地方。</p>
+      </div>
+      <div class="bjk-creators">
+        <article class="bjk-cre-card">
+          <div class="bjk-cre-top">
+            <span class="bjk-cre-avatar" style="background:linear-gradient(140deg,#ff2d55,#8b1bff)">夜</span>
+            <div>
+              <div class="bjk-cre-name">夜航档案组</div>
+              <div class="bjk-cre-field">城市观察 · 夜间影像</div>
+            </div>
+          </div>
+          <p class="bjk-cre-desc">六人小组，常驻两座城市，擅长长周期跟拍与多线叙事。代表作《凌晨三点的城市后台》系列。</p>
+          <div class="bjk-cre-num"><span><b>86</b>作品</span><span><b>12.4万</b>关注</span></div>
+          <button class="bjk-cre-btn" data-bjk-creator="夜航档案组">查看档案</button>
+        </article>
+        <article class="bjk-cre-card">
+          <div class="bjk-cre-top">
+            <span class="bjk-cre-avatar" style="background:linear-gradient(140deg,#0ea5e9,#22c55e)">巷</span>
+            <div>
+              <div class="bjk-cre-name">巷口观察员</div>
+              <div class="bjk-cre-field">城市探索 · 在地文化</div>
+            </div>
+          </div>
+          <p class="bjk-cre-desc">走街串巷十年，拍下过 300 多家即将消失的小店。习惯用固定镜头，几乎不加旁白。</p>
+          <div class="bjk-cre-num"><span><b>142</b>作品</span><span><b>18.9万</b>关注</span></div>
+          <button class="bjk-cre-btn" data-bjk-creator="巷口观察员">查看档案</button>
+        </article>
+        <article class="bjk-cre-card">
+          <div class="bjk-cre-top">
+            <span class="bjk-cre-avatar" style="background:linear-gradient(140deg,#f59e0b,#ef4444)">陈</span>
+            <div>
+              <div class="bjk-cre-name">陈默的会客厅</div>
+              <div class="bjk-cre-field">人物访谈 · 行业观察</div>
+            </div>
+          </div>
+          <p class="bjk-cre-desc">前深度报道记者，现专注长访谈。相信好的提问比好的答案更稀缺，每期只聊一个人。</p>
+          <div class="bjk-cre-num"><span><b>64</b>作品</span><span><b>21.6万</b>关注</span></div>
+          <button class="bjk-cre-btn" data-bjk-creator="陈默的会客厅">查看档案</button>
+        </article>
+        <article class="bjk-cre-card">
+          <div class="bjk-cre-top">
+            <span class="bjk-cre-avatar" style="background:linear-gradient(140deg,#14b8a6,#84cc16)">剪</span>
+            <div>
+              <div class="bjk-cre-name">剪辑间老周</div>
+              <div class="bjk-cre-field">教程干货 · 实用技巧</div>
+            </div>
+          </div>
+          <p class="bjk-cre-desc">从业十五年，参与过多部纪录长片剪辑。把复杂的工程拆成普通人能上手的步骤。</p>
+          <div class="bjk-cre-num"><span><b>97</b>作品</span><span><b>9.7万</b>关注</span></div>
+          <button class="bjk-cre-btn" data-bjk-creator="剪辑间老周">查看档案</button>
+        </article>
+        <article class="bjk-cre-card">
+          <div class="bjk-cre-top">
+            <span class="bjk-cre-avatar" style="background:linear-gradient(140deg,#8b5cf6,#ec4899)">林</span>
+            <div>
+              <div class="bjk-cre-name">林间记录</div>
+              <div class="bjk-cre-field">治愈影像 · 日常记录</div>
+            </div>
+          </div>
+          <p class="bjk-cre-desc">用极简镜头记录普通人的日子。作品多为无旁白短片，节奏慢，但评论区总是很长。</p>
+          <div class="bjk-cre-num"><span><b>118</b>作品</span><span><b>25.3万</b>关注</span></div>
+          <button class="bjk-cre-btn" data-bjk-creator="林间记录">查看档案</button>
+        </article>
+        <article class="bjk-cre-card">
+          <div class="bjk-cre-top">
+            <span class="bjk-cre-avatar" style="background:linear-gradient(140deg,#f97316,#facc15)">园</span>
+            <div>
+              <div class="bjk-cre-name">城市切片计划</div>
+              <div class="bjk-cre-field">城市探索 · 商业观察</div>
+            </div>
+          </div>
+          <p class="bjk-cre-desc">关注城市空间的变迁与个体经营的起落。擅长把数据图与人物访谈编织在同一条时间线上。</p>
+          <div class="bjk-cre-num"><span><b>52</b>作品</span><span><b>7.8万</b>关注</span></div>
+          <button class="bjk-cre-btn" data-bjk-creator="城市切片计划">查看档案</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 影像墙 + 数据榜单 -->
+  <section class="bjk-sec" id="bjkWall">
+    <div class="bjk-wrap">
+      <div class="bjk-sec-head">
+        <span class="bjk-eyebrow">GALLERY / 影像墙</span>
+        <h2 class="bjk-h2">本周社区影像精选</h2>
+        <p class="bjk-sec-lead">来自用户投稿的静帧作品，每张都对应一支完整短片。点击可查看作者与拍摄手记。</p>
+      </div>
+      <div class="bjk-wall" id="bjkWallGrid">
+        <div class="bjk-wall-item bjk-wall-a">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Crect width='400' height='400' fill='%231b1626'/%3E%3Ccircle cx='200' cy='180' r='90' fill='%23ff2d55' opacity='.3'/%3E%3Ccircle cx='200' cy='180' r='52' fill='%23ffd166' opacity='.65'/%3E%3Cpath d='M200 70 L200 290 M90 180 L310 180' stroke='%23ffffff' stroke-opacity='.18' stroke-width='2'/%3E%3Cg fill='%23ffffff' opacity='.15'%3E%3Crect x='70' y='330' width='260' height='10' rx='5'/%3E%3C/g%3E%3C/svg%3E" alt="影像墙作品：夜色中的城市坐标与光圈">
+          <span>坐标之外 · 夜航档案组</span>
+        </div>
+        <div class="bjk-wall-item bjk-wall-b">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 200'%3E%3Crect width='400' height='200' fill='%23221c2e'/%3E%3Cg fill='%23a78bfa' opacity='.55'%3E%3Crect x='40' y='90' width='44' height='80' rx='4'/%3E%3Crect x='96' y='60' width='44' height='110' rx='4'/%3E%3Crect x='152' y='110' width='44' height='60' rx='4'/%3E%3C/g%3E%3Cg fill='%23ff2d55' opacity='.6'%3E%3Crect x='230' y='70' width='44' height='100' rx='4'/%3E%3Crect x='286' y='100' width='44' height='70' rx='4'/%3E%3C/g%3E%3C/svg%3E" alt="影像墙作品：夜班楼宇窗口灯光序列">
+          <span>窗口 · 巷口观察员</span>
+        </div>
+        <div class="bjk-wall-item bjk-wall-c">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%231a2430'/%3E%3Ccircle cx='100' cy='92' r='46' fill='%2338bdf8' opacity='.6'/%3E%3Crect x='40' y='152' width='120' height='9' rx='4' fill='%23ffffff' opacity='.24'/%3E%3C/svg%3E" alt="影像墙作品：夜班值守屏幕的冷光">
+          <span>蓝光 · 剪辑间老周</span>
+        </div>
+        <div class="bjk-wall-item bjk-wall-c">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23241a1a'/%3E%3Cg fill='%23f97316' opacity='.7'%3E%3Crect x='48' y='100' width='18' height='56' rx='4'/%3E%3Crect x='80' y='70' width='18' height='86' rx='4'/%3E%3Crect x='112' y='112' width='18' height='44' rx='4'/%3E%3C/g%3E%3Ccircle cx='150' cy='70' r='22' fill='%23ffd166' opacity='.6'/%3E%3C/svg%3E" alt="影像墙作品：深夜小馆子的暖色灯箱">
+          <span>打烊前 · 林间记录</span>
+        </div>
+        <div class="bjk-wall-item bjk-wall-d">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 200'%3E%3Crect width='400' height='200' fill='%23192025'/%3E%3Cg stroke='%2334d399' stroke-width='2' fill='none' opacity='.65'%3E%3Cpath d='M30 160 Q120 90 210 130 T380 70'/%3E%3C/g%3E%3Cg fill='%2334d399' opacity='.7'%3E%3Ccircle cx='120' cy='112' r='6'/%3E%3Ccircle cx='300' cy='98' r='6'/%3E%3C/g%3E%3Crect x='30' y='172' width='180' height='8' rx='4' fill='%23ffffff' opacity='.2'/%3E%3C/svg%3E" alt="影像墙作品：夜间骑行路线手绘图">
+          <span>外环 46 公里 · 城市切片计划</span>
+        </div>
+        <div class="bjk-wall-item bjk-wall-f">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23261c2c'/%3E%3Ccircle cx='100' cy='100' r='54' fill='none' stroke='%23ff2d55' stroke-width='3' opacity='.75'/%3E%3Cpath d='M100 58 L100 142 M58 100 L142 100' stroke='%23ffd166' stroke-width='2' opacity='.8'/%3E%3C/svg%3E" alt="影像墙作品：档案编号与时间戳图形">
+          <span>第 100 夜 · 陈默的会客厅</span>
+        </div>
+        <div class="bjk-wall-item bjk-wall-e">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 140'%3E%3Crect width='400' height='140' fill='%231c1b2e'/%3E%3Cg fill='%23ffd166' opacity='.6'%3E%3Ccircle cx='70' cy='70' r='26'/%3E%3Ccircle cx='160' cy='70' r='26'/%3E%3Ccircle cx='250' cy='70' r='26'/%3E%3Ccircle cx='340' cy='70' r='26'/%3E%3C/g%3E%3Cg stroke='%23ff2d55' stroke-width='2' opacity='.5'%3E%3Cpath d='M70 70 H340'/%3E%3C/g%3E%3C/svg%3E" alt="影像墙作品：创作者协作节点示意图">
+          <span>同行者计划 · 协作组</span>
+        </div>
+      </div>
+
+      <div style="height:44px"></div>
+      <div class="bjk-sec-head">
+        <span class="bjk-eyebrow">RANK / 数据榜单</span>
+        <h2 class="bjk-h2">本周热度 · 口碑 · 新人</h2>
+      </div>
+      <div class="bjk-rank-grid">
+        <div class="bjk-rank-card">
+          <h3><i></i>热度榜</h3>
+          <div class="bjk-rank-row"><span class="bjk-rank-no">1</span><span class="bjk-rank-tt">凌晨三点的城市后台</span><span class="bjk-rank-val">42.8万</span></div>
+          <div class="bjk-rank-row"><span class="bjk-rank-no">2</span><span class="bjk-rank-tt">第 100 个夜班之后</span><span class="bjk-rank-val">36.1万</span></div>
+          <div class="bjk-rank-row"><span class="bjk-rank-no">3</span><span class="bjk-rank-tt">他们说这行不体面</span><span class="bjk-rank-val">31.5万</span></div>
+          <div class="bjk-rank-row"><span class="bjk-rank-no">4</span><span class="bjk-rank-tt">城市褶皱</span><span class="bjk-rank-val">27.9万</span></div>
+        </div>
+        <div class="bjk-rank-card">
+          <h3><i></i>口碑榜</h3>
+          <div class="bjk-rank-row"><span class="bjk-rank-no">1</span><span class="bjk-rank-tt">末班车之后</span><span class="bjk-rank-val">9.6 分</span></div>
+          <div class="bjk-rank-row"><span class="bjk-rank-no">2</span><span class="bjk-rank-tt">采访前必做的 8 件事</span><span class="bjk-rank-val">9.5 分</span></div>
+          <div class="bjk-rank-row"><span class="bjk-rank-no">3</span><span class="bjk-rank-tt">沿着外环骑行 46 公里</span><span class="bjk-rank-val">9.3 分</span></div>
+          <div class="bjk-rank-row"><span class="bjk-rank-no">4</span><span class="bjk-rank-tt">信息溯源手记</span><span class="bjk-rank-val">9.2 分</span></div>
+        </div>
+        <div class="bjk-rank-card">
+          <h3><i></i>新人榜</h3>
+          <div class="bjk-rank-row"><span class="bjk-rank-no">1</span><span class="bjk-rank-tt">凌晨四点的早餐铺</span><span class="bjk-rank-val">阿禾</span></div>
+          <div class="bjk-rank-row"><span class="bjk-rank-no">2</span><span class="bjk-rank-tt">医院走廊的第七把椅子</span><span class="bjk-rank-val">小满</span></div>
+          <div class="bjk-rank-row"><span class="bjk-rank-no">3</span><span class="bjk-rank-tt">值夜班的第 400 天</span><span class="bjk-rank-val">周屿</span></div>
+          <div class="bjk-rank-row"><span class="bjk-rank-no">4</span><span class="bjk-rank-tt">我家的旧钟表铺</span><span class="bjk-rank-val">老宋</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 企业动态 + FAQ -->
+  <section class="bjk-sec bjk-sec-alt" id="bjkNews">
+    <div class="bjk-wrap">
+      <div class="bjk-two-col">
+        <div>
+          <div class="bjk-sec-head">
+            <span class="bjk-eyebrow">NEWS / 企业动态</span>
+            <h2 class="bjk-h2">官方发布与更新日志</h2>
+          </div>
+          <div class="bjk-news-item">
+            <div class="bjk-news-date"><b>18</b><span>11月</span></div>
+            <div class="bjk-news-body">
+              <h3>「夜间档案」第三季正式上线，新增 8 集内容</h3>
+              <p>本季聚焦夜班工作者与城市夜间运转系统，同步开放深夜来信征集通道，欢迎投稿。</p>
+            </div>
+          </div>
+          <div class="bjk-news-item">
+            <div class="bjk-news-date"><b>12</b><span>11月</span></div>
+            <div class="bjk-news-body">
+              <h3>创作者扶持计划第 6 期名单公布</h3>
+              <p>本期共收到 327 份报名，最终 24 位创作者入选，将获得为期六个月的拍摄与分发支持。</p>
+            </div>
+          </div>
+          <div class="bjk-news-item">
+            <div class="bjk-news-date"><b>05</b><span>11月</span></div>
+            <div class="bjk-news-body">
+              <h3>信源分级规范更新至 2.1 版</h3>
+              <p>新增对匿名信源的二次核验要求，并明确更正声明的展示位置与保留时长。</p>
+            </div>
+          </div>
+          <div class="bjk-news-item">
+            <div class="bjk-news-date"><b>28</b><span>10月</span></div>
+            <div class="bjk-news-body">
+              <h3>线下放映会杭州站报名开启</h3>
+              <p>活动将放映三部社区精选短片，并邀请作者到场交流，报名通道开放至 11 月 25 日。</p>
+            </div>
+          </div>
+          <div class="bjk-news-item">
+            <div class="bjk-news-date"><b>19</b><span>10月</span></div>
+            <div class="bjk-news-body">
+              <h3>合作伙伴开放计划上线</h3>
+              <p>面向机构与品牌开放联合企划、素材授权与线下活动合作，详情可联系品牌合作邮箱。</p>
+            </div>
+          </div>
+        </div>
+        <div class="bjk-faq" id="bjkFaq">
+          <div class="bjk-sec-head">
+            <span class="bjk-eyebrow">FAQ / 帮助</span>
+            <h2 class="bjk-h2">常见问题</h2>
+          </div>
+          <details open>
+            <summary>投稿需要满足什么条件？</summary>
+            <div class="bjk-faq-body">接受原创短片、未剪辑素材与图文档案。要求作者拥有完整版权，且内容真实可核验。涉及第三方人物的作品需提供授权说明。单支短片建议时长 3 至 40 分钟。</div>
+          </details>
+          <details>
+            <summary>如何判断内容是否为官方发布？</summary>
+            <div class="bjk-faq-body">官方网站与官方账号发布的内容均带有档案编号与信源说明。任何需要我们核实的内容，都可以通过页面底部的联系渠道提交，编辑部会在 72 小时内回应。</div>
+          </details>
+          <details>
+            <summary>创作者扶持计划多久开放一次？</summary>
+            <div class="bjk-faq-body">目前为每季度一期，每期入选人数在 20 至 30 人之间。入选后可获得选题辅导、设备支持与分发资源，并参与季度主题企划的联合创作。</div>
+          </details>
+          <details>
+            <summary>可以申请素材授权或商业合作吗？</summary>
+            <div class="bjk-faq-body">可以。我们提供非独家素材授权、联合企划与线下放映合作三种方式。请通过合作邮箱提供使用场景、周期与预算范围，我们会在三个工作日内回复。</div>
+          </details>
+          <details>
+            <summary>发现内容有误，如何反馈？</summary>
+            <div class="bjk-faq-body">每支片子下方均设有反馈入口，也可直接发送邮件至更正邮箱。我们会在核实后发布更正声明，并保留原内容与更正记录的对照关系。</div>
+          </details>
+          <details>
+            <summary>平台是否提供高清下载？</summary>
+            <div class="bjk-faq-body">签约创作者可在后台申请正版高清素材包下载，用于二次创作或学术研究。普通用户如需引用，请通过联系表单说明用途，我们会提供带水印的引用版本。</div>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 用户评价 -->
+  <section class="bjk-sec" id="bjkComments">
+    <div class="bjk-wrap">
+      <div class="bjk-sec-head">
+        <span class="bjk-eyebrow">VOICES / 社区声音</span>
+        <h2 class="bjk-h2">他们这样说</h2>
+        <p class="bjk-sec-lead">来自社区用户、合作创作者与行业伙伴的真实反馈。我们不筛选差评，只对个人信息做必要处理。</p>
+      </div>
+      <div class="bjk-comments">
+        <div class="bjk-cm">
+          <div class="bjk-cm-head"><span class="bjk-avatar g2">阿</span><span class="bjk-cm-name">阿禾</span><span class="bjk-cm-time">11-17</span></div>
+          <p class="bjk-cm-text">第一次投的片子居然被选进了新人榜，编辑给我写了三段修改建议，非常具体。作为一个完全没有经验的人，这种耐心很难得。</p>
+          <button class="bjk-cm-like" data-bjk-like>♡ 有帮助 <b>128</b></button>
+        </div>
+        <div class="bjk-cm">
+          <div class="bjk-cm-head"><span class="bjk-avatar g3">林</span><span class="bjk-cm-name">林间记录</span><span class="bjk-cm-time">11-16</span></div>
+          <p class="bjk-cm-text">在这里待了两年，最直接的感受是：平台不催更，但会认真问你在拍什么。这种节奏对做长内容的人很友好。</p>
+          <button class="bjk-cm-like" data-bjk-like>♡ 有帮助 <b>342</b></button>
+        </div>
+        <div class="bjk-cm">
+          <div class="bjk-cm-head"><span class="bjk-avatar g5">周</span><span class="bjk-cm-name">周屿</span><span class="bjk-cm-time">11-15</span></div>
+          <p class="bjk-cm-text">作为夜班护士，我一开始只是想记录一下自己的班次。后来收到很多留言，说看完之后对自己的工作有了新的理解。这种被回应的感觉很好。</p>
+          <button class="bjk-cm-like" data-bjk-like>♡ 有帮助 <b>517</b></button>
+        </div>
+        <div class="bjk-cm">
+          <div class="bjk-cm-head"><span class="bjk-avatar g6">合</span><span class="bjk-cm-name">某教育机构内容负责人</span><span class="bjk-cm-time">11-13</span></div>
+          <p class="bjk-cm-text">合作过一期联合企划，从选题到成片沟通都很顺畅，改稿意见专业，素材授权流程也很清晰。后续还会继续合作。</p>
+          <button class="bjk-cm-like" data-bjk-like>♡ 有帮助 <b>76</b></button>
+        </div>
+        <div class="bjk-cm">
+          <div class="bjk-cm-head"><span class="bjk-avatar g4">小</span><span class="bjk-cm-name">小满</span><span class="bjk-cm-time">11-11</span></div>
+          <p class="bjk-cm-text">建议多开一点线下放映，线上看和一群人一起看，感受真的完全不一样。杭州那场我报了名，希望能抽中。</p>
+          <button class="bjk-cm-like" data-bjk-like>♡ 有帮助 <b>93</b></button>
+        </div>
+        <div class="bjk-cm">
+          <div class="bjk-cm-head"><span class="bjk-avatar">老</span><span class="bjk-cm-name">老宋</span><span class="bjk-cm-time">11-09</span></div>
+          <p class="bjk-cm-text">我那间钟表铺的片子拍完三个月了，还有人专门找来修表。片子没有夸张的东西，就是老老实实地拍，反而有人信。</p>
+          <button class="bjk-cm-like" data-bjk-like>♡ 有帮助 <b>205</b></button>
+        </div>
+        <div class="bjk-cm">
+          <div class="bjk-cm-head"><span class="bjk-avatar g2">研</span><span class="bjk-cm-name">传媒专业学生</span><span class="bjk-cm-time">11-07</span></div>
+          <p class="bjk-cm-text">信息溯源手记那一组文章我几乎全看了，信源分级的部分直接拿来做了课程作业的参考，希望能继续公开更多方法论。</p>
+          <button class="bjk-cm-like" data-bjk-like>♡ 有帮助 <b>61</b></button>
+        </div>
+        <div class="bjk-cm">
+          <div class="bjk-cm-head"><span class="bjk-avatar g3">夜</span><span class="bjk-cm-name">夜航档案组</span><span class="bjk-cm-time">11-05</span></div>
+          <p class="bjk-cm-text">我们是创作者，也是观众。这个社区最难得的地方在于，评论区是真的在讨论内容，而不是只在争对错。</p>
+          <button class="bjk-cm-like" data-bjk-like>♡ 有帮助 <b>284</b></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 合作伙伴 + 联系 CTA -->
+  <section class="bjk-sec bjk-sec-alt" id="bjkContact">
+    <div class="bjk-wrap">
+      <div class="bjk-sec-head">
+        <span class="bjk-eyebrow">PARTNERS / 合作伙伴</span>
+        <h2 class="bjk-h2">与我们同行的机构</h2>
+        <p class="bjk-sec-lead">我们与高校、城市文化机构、影像设备品牌保持长期合作，共同推动真实内容的公共价值。</p>
+      </div>
+      <div class="bjk-partners">
+        <div class="bjk-partner">城市文化档案馆</div>
+        <div class="bjk-partner">某高校新闻传播学院</div>
+        <div class="bjk-partner">独立影像器材品牌</div>
+        <div class="bjk-partner">本地社区服务中心</div>
+        <div class="bjk-partner">青年创作者联盟</div>
+        <div class="bjk-partner">城市夜间经济研究会</div>
+      </div>
+
+      <div style="height:44px"></div>
+      <div class="bjk-cta">
+        <div>
+          <h2>有一个现场，值得被记录下来吗？</h2>
+          <p>投稿、合作、选题建议、内容更正，都欢迎联系我们。24小时不打烊黑料官方网站坚持官方发布与正版授权，所有有效来稿将在五个工作日内收到回复。也可以直接参与本月主题企划的报名与投票。</p>
+        </div>
+        <div class="bjk-cta-acts">
+          <button class="bjk-cta-btn" data-bjk-open="submit">我要投稿 <span>→</span></button>
+          <button class="bjk-cta-btn" data-bjk-open="contact">合作与联系 <span>→</span></button>
+          <button class="bjk-cta-btn" data-bjk-open="share">分享本站 <span>→</span></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="bjk-foot">
+  <div class="bjk-wrap">
+    <div class="bjk-foot-grid">
+      <div class="bjk-foot-brand">
+        <div class="bjk-logo">
+          <span class="bjk-logo-mark" aria-hidden="true"></span>
+          <span class="bjk-logo-txt">24小时不打烊<em>黑料</em></span>
+        </div>
+        <p>24小时不打烊黑料官方网站，持续运营的深度影像与真实故事社区。我们以原创、正版、高清为底线，深耕垂直领域，为创作者与企业搭建值得信赖的内容生态。</p>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <ul>
+          <li><a href="#bjkFocus">焦点内容</a></li>
+          <li><a href="#bjkStream">热门视频流</a></li>
+          <li><a href="#bjkSpecial">专题企划</a></li>
+          <li><a href="#bjkWall">影像墙</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于我们</h4>
+        <ul>
+          <li><a href="#bjkDeep">品牌深度解析</a></li>
+          <li><a href="#bjkCreators">创作者矩阵</a></li>
+          <li><a href="#bjkNews">企业动态</a></li>
+          <li><a href="#bjkFaq">帮助中心</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>联系我们</h4>
+        <ul>
+          <li>投稿邮箱：submit@bujiaoye.example</li>
+          <li>合作邮箱：partner@bujiaoye.example</li>
+          <li>更正反馈：correct@bujiaoye.example</li>
+          <li>工作时间：全天候轮值</li>
+        </ul>
+      </div>
+    </div>
+    <div class="bjk-foot-bottom">
+      <span>© 2026 24小时不打烊黑料 官方网站 · 版权所有 · 持续运营中</span>
+      <span>内容均为原创或已获授权 · 正版高清 · 品质优先 · 用户至上</span>
+    </div>
+  </div>
+</footer>
+
+<div class="bjk-modal" id="bjkModal">
+  <div class="bjk-modal-box">
+    <button class="bjk-modal-close" id="bjkModalClose" aria-label="关闭">×</button>
+    <h3 id="bjkModalTitle">投稿入口</h3>
+    <p id="bjkModalDesc">请填写基本信息，编辑部会在五个工作日内联系你。</p>
+    <form id="bjkModalForm">
+      <label for="bjkFormName">称呼</label>
+      <input type="text" id="bjkFormName" placeholder="怎么称呼你" autocomplete="off">
+      <label for="bjkFormContact">联系方式</label>
+      <input type="text" id="bjkFormContact" placeholder="邮箱或常用社交账号" autocomplete="off">
+      <label for="bjkFormType">事项类型</label>
+      <select id="bjkFormType">
+        <option>投稿 / 素材提交</option>
+        <option>商业合作</option>
+        <option>内容更正</option>
+        <option>活动报名</option>
+        <option>其他</option>
+      </select>
+      <label for="bjkFormMsg">内容说明</label>
+      <textarea id="bjkFormMsg" placeholder="简要描述你的选题、素材或合作需求"></textarea>
+      <div class="bjk-modal-acts">
+        <button type="submit" class="bjk-btn bjk-btn-main">提交</button>
+        <button type="button" class="bjk-btn bjk-btn-ghost" id="bjkModalCancel">取消</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="bjk-toast" id="bjkToast">已复制</div>
+<button class="bjk-top" id="bjkTopBtn" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  var prefix = 'bjk';
+
+  /* 公告关闭 */
+  var noticeClose = document.getElementById('bjkNoticeClose');
+  var notice = document.getElementById('bjkNotice');
+  if(noticeClose && notice){
+    noticeClose.addEventListener('click', function(){
+      notice.style.display = 'none';
+      var head = document.querySelector('.bjk-head');
+      document.documentElement.style.setProperty('--bjk-head-h', head ? head.offsetHeight + 'px' : '72px');
+    });
+  }
+
+  /* 移动端导航 */
+  var burger = document.getElementById('bjkBurger');
+  var mobileNav = document.getElementById('bjkMobileNav');
+  if(burger && mobileNav){
+    burger.addEventListener('click', function(){
+      mobileNav.classList.toggle('open');
+      burger.textContent = mobileNav.classList.contains('open') ? '✕' : '☰';
+    });
+    mobileNav.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', function(){
+        mobileNav.classList.remove('open');
+        burger.textContent = '☰';
+      });
+    });
+  }
+
+  /* Toast */
+  var toast = document.getElementById('bjkToast');
+  var toastTimer = null;
+  function showToast(msg){
+    if(!toast) return;
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toast.classList.remove('show'); }, 2000);
+  }
+
+  /* 搜索前端反馈 */
+  var searchInput = document.getElementById('bjkSearchInput');
+  var searchBtn = document.getElementById('bjkSearchBtn');
+  var searchTip = document.getElementById('bjkSearchTip');
+  var searchPool = [
+    '凌晨三点的城市后台',
+    '夜间档案 第三季',
+    '末班车之后',
+    '不关机的人',
+    '信息溯源手记',
+    '采访前必做的 8 件事',
+    '城市褶皱',
+    '第 100 个夜班之后'
+  ];
+  function doSearch(){
+    if(!searchInput) return;
+    var kw = searchInput.value.trim();
+    if(!kw){
+      showToast('请输入关键词后再搜索');
+      return;
+    }
+    var hit = searchPool.filter(function(item){ return item.indexOf(kw) > -1; });
+    if(hit.length){
+      showToast('找到 ' + hit.length + ' 条相关档案：' + hit[0]);
+    }else{
+      showToast('暂无匹配档案，已为你记录「' + kw + '」的搜索需求');
+    }
+  }
+  if(searchBtn){ searchBtn.addEventListener('click', doSearch); }
+  if(searchInput){
+    searchInput.addEventListener('keydown', function(e){
+      if(e.key === 'Enter'){ doSearch(); }
+    });
+    searchInput.addEventListener('input', function(){
+      if(!searchTip) return;
+      var kw = searchInput.value.trim();
+      if(!kw){ searchTip.classList.remove('show'); return; }
+      var hit = searchPool.filter(function(item){ return item.indexOf(kw) > -1; }).slice(0, 4);
+      if(hit.length){
+        searchTip.innerHTML = hit.map(function(h){ return '<span>' + h + '</span>'; }).join('');
+        searchTip.classList.add('show');
+        searchTip.querySelectorAll('span').forEach(function(sp){
+          sp.addEventListener('click', function(){
+            searchInput.value = sp.textContent;
+            searchTip.classList.remove('show');
+            doSearch();
+          });
+        });
+      }else{
+        searchTip.innerHTML = '<span>暂无匹配，试试「夜间档案」</span>';
+        searchTip.classList.add('show');
+      }
+    });
+    document.addEventListener('click', function(e){
+      if(searchTip && !searchTip.contains(e.target) && e.target !== searchInput){
+        searchTip.classList.remove('show');
+      }
+    });
+  }
+
+  /* 点赞 / 收藏 */
+  document.querySelectorAll('[data-bjk-like]').forEach(function(btn){
+    btn.addEventListener('click', function(e){
+      e.preventDefault();
+      var b = btn.querySelector('b');
+      var isOn = btn.classList.toggle('on-like');
+      if(b){
+        var n = parseFloat(b.textContent.replace(/[^\d.]/g, '')) || 0;
+        var unit = /k/i.test(b.textContent) ? 'k' : '';
+        var next = isOn ? n + 0.1 : n - 0.1;
+        if(next < 0) next = 0;
+        b.textContent = (unit ? next.toFixed(1) : Math.round(next)) + unit;
+      }
+      showToast(isOn ? '已表示有帮助' : '已取消');
+    });
+  });
+
+  document.querySelectorAll('[data-bjk-save]').forEach(function(btn){
+    btn.addEventListener('click', function(e){
+      e.preventDefault();
+      var on = btn.classList.toggle('on-save');
+      if(on){
+        btn.innerHTML = '★ 已收藏';
+        showToast('已加入收藏夹');
+      }else{
+        btn.innerHTML = '☆ 收藏';
+        showToast('已取消收藏');
+      }
+    });
+  });
+
+  /* 分享 */
+  function shareSite(title){
+    var t = title || '24小时不打烊黑料 · 官方网站';
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(t + ' ' + '深度影像与真实故事社区').then(function(){
+        showToast('分享文案已复制到剪贴板');
+      }).catch(function(){
+        showToast('可分享至微信 / 微博 / QQ');
+      });
+    }else{
+      showToast('可分享至微信 / 微博 / QQ');
+    }
+  }
+  document.querySelectorAll('[data-bjk-share]').forEach(function(btn){
+    btn.addEventListener('click', function(e){
+      e.preventDefault();
+      shareSite();
+    });
+  });
+
+  /* 标签筛选 */
+  var tabs = document.querySelectorAll('[data-bjk-filter]');
+  var streamCards = document.querySelectorAll('#bjkStreamGrid [data-bjk-tag]');
+  tabs.forEach(function(tab){
+    tab.addEventListener('click', function(){
+      tabs.forEach(function(t){ t.classList.remove('active'); });
+      tab.classList.add('active');
+      var f = tab.getAttribute('data-bjk-filter');
+      var count = 0;
+      streamCards.forEach(function(card){
+        var show = (f === 'all') || (card.getAttribute('data-bjk-tag') === f);
+        card.classList.toggle('bjk-hidden', !show);
+        if(show) count++;
+      });
+      showToast(f === 'all' ? '已展示全部 ' + count + ' 条档案' : '已筛选出 ' + count + ' 条相关档案');
+    });
+  });
+
+  /* 弹窗 */
+  var modal = document.getElementById('bjkModal');
+  var modalTitle = document.getElementById('bjkModalTitle');
+  var modalDesc = document.getElementById('bjkModalDesc');
+  var modalForm = document.getElementById('bjkModalForm');
+  var modalClose = document.getElementById('bjkModalClose');
+  var modalCancel = document.getElementById('bjkModalCancel');
+  var modalConfig = {
+    submit: {
+      title: '投稿入口',
+      desc: '请填写基本信息，编辑部会在五个工作日内联系你。原创、正版素材优先。'
+    },
+    contact: {
+      title: '合作与联系',
+      desc: '请留下合作方向与联系方式，我们会安排对应同事对接。'
+    },
+    share: {
+      title: '分享本站',
+      desc: '复制分享文案，发送给你的朋友或社群。感谢你让更多真实内容被看见。'
+    }
+  };
+  function openModal(type){
+    if(!modal) return;
+    var cfg = modalConfig[type] || modalConfig.submit;
+    if(modalTitle) modalTitle.textContent = cfg.title;
+    if(modalDesc) modalDesc.textContent = cfg.desc;
+    modal.classList.add('show');
+    if(modalForm){
+      modalForm.style.display = (type === 'share') ? 'none' : 'block';
+    }
+  }
+  document.querySelectorAll('[data-bjk-open]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var type = btn.getAttribute('data-bjk-open');
+      openModal(type);
+      if(type === 'share'){ shareSite(); }
+    });
+  });
+  function closeModal(){
+    if(modal) modal.classList.remove('show');
+  }
+  if(modalClose){ modalClose.addEventListener('click', closeModal); }
+  if(modalCancel){ modalCancel.addEventListener('click', closeModal); }
+  if(modal){
+    modal.addEventListener('click', function(e){ if(e.target === modal) closeModal(); });
+  }
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeModal(); });
+
+  if(modalForm){
+    modalForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      var name = document.getElementById('bjkFormName');
+      var contact = document.getElementById('bjkFormContact');
+      if(name && !name.value.trim()){ showToast('请填写称呼'); name.focus(); return; }
+      if(contact && !contact.value.trim()){ showToast('请填写联系方式'); contact.focus(); return; }
+      closeModal();
+      showToast('已提交，感谢你的信任');
+      modalForm.reset();
+    });
+  }
+
+  /* 创作者档案弹窗 */
+  document.querySelectorAll('[data-bjk-creator]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var name = btn.getAttribute('data-bjk-creator');
+      if(modalTitle) modalTitle.textContent = name;
+      if(modalDesc) modalDesc.textContent = '该创作者主页收录全部已发布档案、拍摄手记与素材授权说明。关注后可第一时间收到更新提醒。';
+      if(modalForm) modalForm.style.display = 'none';
+      if(modal) modal.classList.add('show');
+    });
+  });
+
+  /* 回到顶部 */
+  var topBtn = document.getElementById('bjkTopBtn');
+  window.addEventListener('scroll', function(){
+    if(topBtn){
+      topBtn.classList.toggle('show', window.scrollY > 520);
+    }
+  });
+  if(topBtn){
+    topBtn.addEventListener('click', function(){
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  /* 数字滚动 */
+  var counted = false;
+  function runCount(){
+    if(counted) return;
+    var stats = document.querySelectorAll('[data-bjk-count]');
+    if(!stats.length) return;
+    var first = stats[0];
+    var rect = first.getBoundingClientRect();
+    if(rect.top < window.innerHeight - 60){
+      counted = true;
+      stats.forEach(function(el){
+        var target = parseInt(el.getAttribute('data-bjk-count'), 10) || 0;
+        var suffix = el.querySelector('em') ? '万' : '';
+        var start = 0;
+        var dur = 1200;
+        var t0 = performance.now();
+        function tick(now){
+          var p = Math.min((now - t0) / dur, 1);
+          var val = Math.floor(start + (target - start) * (1 - Math.pow(1 - p, 3)));
+          el.innerHTML = val + (suffix ? '<em>' + suffix + '</em>' : '');
+          if(p < 1) requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+      });
+    }
+  }
+  window.addEventListener('scroll', runCount);
+  window.addEventListener('load', runCount);
+  runCount();
+
+  /* 图片加载失败兜底（无外部请求） */
+  document.querySelectorAll('.bjk-vcard-cover img, .bjk-sp-cover img, .bjk-wall-item img').forEach(function(img){
+    img.addEventListener('error', function(){
+      img.style.background = 'linear-gradient(135deg,#211d2b,#ff2d55 160%)';
+      img.removeAttribute('src');
+    });
+  });
+
+  /* 动态更新吸顶高度 */
+  function syncHeadHeight(){
+    var head = document.querySelector('.bjk-head');
+    if(!head) return;
+    var n = document.getElementById('bjkNotice');
+    var nH = (n && n.style.display !== 'none') ? n.offsetHeight : 0;
+    document.documentElement.style.setProperty('--bjk-head-h', (head.offsetHeight + nH) + 'px');
+  }
+  window.addEventListener('resize', syncHeadHeight);
+  window.addEventListener('load', syncHeadHeight);
+  syncHeadHeight();
+})();
+</script>
+</body>
+              </html>
